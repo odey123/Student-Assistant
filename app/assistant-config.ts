@@ -1,4 +1,4 @@
-export let assistantId = 'asst_X7DVRdYmsdMh4NN7PJr2UHZq' // 
+export let assistantId // 
 
 
 if (!assistantId) {
