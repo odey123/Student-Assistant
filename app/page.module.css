@@ -4,13 +4,32 @@
   width: 100%;
   overflow: hidden;
   background-color: #f9fafb;
-  
 }
 
-.chatArea {
-  flex: 1;
-  padding: 8rem;
-  overflow-y: auto;
-  background-color: #f1f5f9;
-  
+/* Sidebar + Chat layout side-by-side */
+@media screen and (min-width: 768px) {
+  .layout {
+    flex-direction: row;
+  }
+
+  .chatArea {
+    flex: 1;
+    padding: 4rem 6rem;
+    overflow-y: auto;
+    background-color: #f1f5f9;
+  }
+}
+
+/* Mobile layout stacks sidebar on top */
+@media screen and (max-width: 767px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .chatArea {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    background-color: #f1f5f9;
+  }
 }
