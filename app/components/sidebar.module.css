@@ -1,0 +1,112 @@
+.sidebar {
+  width: 300px;
+  background-color: #ffffff;
+  border-right: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.sidebarTop {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.toggleContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.toggleSwitch {
+  background-color: #f3f4f6;
+  border-radius: 9999px;
+  width: 48px;
+  height: 24px;
+  position: relative;
+  cursor: pointer;
+  padding: 2px;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.toggleSwitch.light {
+  background-color: #facc15;
+}
+
+.toggleSwitch.dark {
+  background-color: #0f172a;
+}
+
+.switchKnob {
+  background-color: white;
+  border-radius: 9999px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.toggleSwitch.dark .switchKnob {
+  transform: translateX(24px);
+}
+
+.newChat {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.chatHistory {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-top: 1rem;
+}
+
+.monthGroup, .weekGroup, .dayGroup {
+  margin-bottom: 0.5rem;
+}
+
+.dayTitle {
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: #4b5563;
+}
+
+.chatItem {
+  padding: 0.25rem 0.5rem;
+  background-color: #f9fafb;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-bottom: 0.25rem;
+  transition: background-color 0.2s ease;
+}
+
+.chatItem:hover {
+  background-color: #e5e7eb;
+}
+
+.sidebarFooter {
+  padding-top: 1rem;
+  font-size: 0.75rem;
+  color: #9ca3af;
+  text-align: center;
+}
