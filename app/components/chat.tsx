@@ -76,21 +76,38 @@ const Chat = ({
     onMessagesUpdate(messages);
   }, [messages]);
 
-  const sendMessage = async (text: string) => {
-    if (!threadId) return console.error("No threadId set yet.");
-    try {
-      const response = await fetch(`/api/assistants/threads/${threadId}/messages`, {
-        method: "POST",
-        body: JSON.stringify({ content: text }),
-      });
-      if (!response.ok) throw new Error(await response.text());
+ const sendMessage = async (text: string) => {
+  if (!threadId) return console.error("No threadId set yet.");
+  try {
+    const response = await fetch(`/api/assistants/threads/${threadId}/messages`, {
+      method: "POST",
+      body: JSON.stringify({ content: text }),
+    });
 
-      const stream = AssistantStream.fromReadableStream(response.body);
-      handleReadableStream(stream);
-    } catch (err) {
-      console.error("sendMessage error:", err);
-    }
-  };
+    if (!response.ok) throw new Error(await response.text());
+
+    const stream = AssistantStream.fromReadableStream(response.body);
+
+    return new Promise<void>((resolve) => {
+      stream.on("textCreated", handleTextCreated);
+      stream.on("textDelta", handleTextDelta);
+      stream.on("imageFileDone", handleImageFileDone);
+      stream.on("toolCallCreated", toolCallCreated);
+      stream.on("toolCallDelta", toolCallDelta);
+      stream.on("event", async (event) => {
+        if (event.event === "thread.run.requires_action") await handleRequiresAction(event);
+        if (event.event === "thread.run.completed") {
+          setInputDisabled(false); // re-enable input
+          resolve(); // stream done
+        }
+      });
+    });
+  } catch (err) {
+    console.error("sendMessage error:", err);
+    setInputDisabled(false); // ensure re-enable on failure
+  }
+};
+
 
   const submitActionResult = async (runId: string, toolCallOutputs: any) => {
     const response = await fetch(`/api/assistants/threads/${threadId}/actions`, {
@@ -102,14 +119,18 @@ const Chat = ({
     handleReadableStream(stream);
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!userInput.trim()) return;
-    sendMessage(userInput);
-    setMessages((prev) => [...prev, { role: "user", text: userInput }]);
-    setUserInput("");
-    setInputDisabled(true);
-  };
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  if (!userInput.trim() || inputDisabled) return;
+
+  setMessages((prev) => [...prev, { role: "user", text: userInput }]);
+  const text = userInput;
+  setUserInput("");
+  setInputDisabled(true); // disable immediately
+
+  await sendMessage(text); // wait for full stream
+};
+
 
   const handleTextCreated = () => appendMessage("assistant", "");
   const handleTextDelta = (delta) => {
@@ -181,25 +202,46 @@ const Chat = ({
     });
   };
 
-  const handleSuggestedClick = (text: string) => {
-    setUserInput(text);
-    sendMessage(text);
-    setMessages((prev) => [...prev, { role: "user", text }]);
-  };
+ const handleSuggestedClick = async (text: string) => {
+  setUserInput("");
+  setMessages((prev) => [...prev, { role: "user", text }]);
+  setInputDisabled(true); // disable immediately
+
+  await sendMessage(text); // wait for assistant to complete
+};
+
 
   return (
     <div className={styles.chatContainer}>
-      <div className={styles.header}>
-        <img
-          src="https://res.cloudinary.com/ddjnrebkn/image/upload/v1752596610/all%20folder/download_2_icfqnb.png"
-          alt="UNILAG Logo"
-          className={styles.logo}
-        />
-        <h2 className={styles.schoolName}>UNIVERSITY OF LAGOS</h2>
-        <p className={styles.subHeader}>Student Assistant AI</p>
-      </div>
+      {/* Top Bar stays at top, scrolls away */}
+  <div className={styles.topBar}>
+    <img
+      src="https://res.cloudinary.com/ddjnrebkn/image/upload/v1752596610/all%20folder/download_2_icfqnb.png"
+      alt="UNILAG Logo"
+      className={styles.logo}
+    />
+    <a
+      href="https://unilag.edu.ng"
+      style={{
+        fontWeight: "bold",
+        color: "#6B3F1D",
+        textDecoration: "none",
+        fontSize: "1rem",
+      }}
+    >
+      <h2 className={styles.schoolName}>UNIVERSITY OF LAGOS</h2>
+    </a>
+  </div>
 
-      <div className={styles.suggestedQuestions}>
+
+<div className={styles.messagesWrapper}>
+        <div ref={messagesRef} className={styles.messages}>
+          {messages.map((msg, index) => (
+            <Message key={index} role={msg.role} text={msg.text} />
+          ))}
+        </div>
+      </div>
+<div className={styles.suggestedQuestions}>
         {["Where is the admin block?", "How do I register for courses?", "HOD of All Department", "Unilag Portal Url"].map((q, i) => (
           <button
             key={i}
@@ -211,13 +253,7 @@ const Chat = ({
         ))}
       </div>
 
-      <div className={styles.messagesWrapper}>
-        <div ref={messagesRef} className={styles.messages}>
-          {messages.map((msg, index) => (
-            <Message key={index} role={msg.role} text={msg.text} />
-          ))}
-        </div>
-      </div>
+      
 
       <form onSubmit={handleSubmit} className={`${styles.inputForm} ${styles.clearfix}`}>
         <input

@@ -4,24 +4,6 @@
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
-
-  /* ✅ Sidebar & UI variables */
-  --sidebar-bg: #fff;
-  --sidebar-text: #111;
-  --btn-bg: #e5e5e5;
-  --btn-text: #111;
-  --subtle-text: #666;
-  --chat-item: #333;
-}
-
-/* ✅ Dark mode override */
-[data-theme="dark"] {
-  --sidebar-bg: #1e1e1e;
-  --sidebar-text: #fafafa;
-  --btn-bg: #333;
-  --btn-text: #fafafa;
-  --subtle-text: #aaa;
-  --chat-item: #ddd;
 }
 
 

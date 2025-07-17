@@ -1,12 +1,36 @@
+.topBar {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  z-index: 10000; /* Always stay above other UI */
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+}
+
+.schoolName {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #6B3F1D;
+}
 .chatContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  width: 100%;
-  max-width: 700px;
+  max-height: 95vh;  
+  max-width: 900px;
   margin: 0 auto;
-  background: #ffffff;
   padding: 0 1rem;
+  z-index: 9999;
 }
 
 .header {
@@ -21,9 +45,11 @@
 }
 
 .schoolName {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: bold;
-  color: #a50000;
+  color: #6B3F1D;
+  margin-left: 0px;
+  margin-top: 20px;
 }
 
 .subHeader {
@@ -32,11 +58,14 @@
 }
 
 .suggestedQuestions {
+  position: sticky;
+  bottom: 4.5rem; /* height of inputForm + margin */
+  padding: 0.5rem;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
-  margin: 1rem 0;
+  z-index: 10;
 }
 
 .questionButton {
@@ -93,10 +122,10 @@
   display: flex;
   gap: 10px;
   padding: 1rem 0.5rem;
-  background: #fff;
   position: sticky;
   bottom: 0;
   z-index: 100;
+  position: "absolute";
 }
 
 .input {
@@ -109,19 +138,30 @@
 }
 
 .button {
-  background-color: #a50000;
-  color: white;
+  padding: 0.6rem 1.2rem;
   border: none;
   border-radius: 999px;
   padding: 12px 20px;
-  cursor: pointer;
   font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #6B3F1D;; /* Default purple */
+  color: white;
   transition: background-color 0.3s ease;
 }
 
-.button:hover {
-  background-color: #8b0000;
+/* Hover effect */
+.button:hover:enabled {
+  background-color: #8b0000;; /* Darker purple on hover */
 }
+
+/* Disabled state */
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: #666;
+}
+
 
 @media screen and (max-width: 600px) {
   .schoolName {

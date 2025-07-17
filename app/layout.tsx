@@ -8,7 +8,7 @@ export const metadata = {
   title: "Assistants API Quickstart",
   description: "A quickstart template using the Assistants API with OpenAI",
   icons: {
-    icon: "/openai.svg",
+    icon: "https://res.cloudinary.com/ddjnrebkn/image/upload/v1752596610/all%20folder/download_2_icfqnb.png",
   },
 };
 
@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         {assistantId ? children : <Warnings />}
-        <img className="logo" src="/openai.svg" alt="OpenAI Logo" />
       </body>
     </html>
   );
