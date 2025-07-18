@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef } from "react";
 import styles from "./chat.module.css";
 import { AssistantStream } from "openai/lib/AssistantStream";
 import Markdown from "react-markdown";
-import { AssistantStreamEvent } from "openai/resources/beta/assistants/assistants";
+// import { AssistantStreamEvent } from "openai/resources/beta/assistants/assistants";
 import { RequiredActionFunctionToolCall } from "openai/resources/beta/threads/runs/runs";
 
 type MessageProps = {
@@ -61,6 +61,7 @@ const Chat = ({
   const [messages, setMessages] = useState<MessageProps[]>(initialMessages);
   const [inputDisabled, setInputDisabled] = useState(false);
   const [threadId, setThreadId] = useState("");
+  const [error, setError] = useState<string | null>(null);
   const messagesRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -76,38 +77,28 @@ const Chat = ({
     onMessagesUpdate(messages);
   }, [messages]);
 
- const sendMessage = async (text: string) => {
-  if (!threadId) return console.error("No threadId set yet.");
-  try {
-    const response = await fetch(`/api/assistants/threads/${threadId}/messages`, {
-      method: "POST",
-      body: JSON.stringify({ content: text }),
-    });
-
-    if (!response.ok) throw new Error(await response.text());
-
-    const stream = AssistantStream.fromReadableStream(response.body);
-
-    return new Promise<void>((resolve) => {
-      stream.on("textCreated", handleTextCreated);
-      stream.on("textDelta", handleTextDelta);
-      stream.on("imageFileDone", handleImageFileDone);
-      stream.on("toolCallCreated", toolCallCreated);
-      stream.on("toolCallDelta", toolCallDelta);
-      stream.on("event", async (event) => {
-        if (event.event === "thread.run.requires_action") await handleRequiresAction(event);
-        if (event.event === "thread.run.completed") {
-          setInputDisabled(false); // re-enable input
-          resolve(); // stream done
-        }
+  const sendMessage = async (text: string) => {
+    if (!threadId) return console.error("No threadId set yet.");
+    try {
+      const response = await fetch(`/api/assistants/threads/${threadId}/messages`, {
+        method: "POST",
+        body: JSON.stringify({ content: text }),
       });
-    });
-  } catch (err) {
-    console.error("sendMessage error:", err);
-    setInputDisabled(false); // ensure re-enable on failure
-  }
-};
-
+      if (!response.ok) {
+        const data = await response.json().catch(() => ({}));
+        setError(data.error || "Failed to send message.");
+        setInputDisabled(false);
+        return;
+      }
+      setError(null);
+      const stream = AssistantStream.fromReadableStream(response.body);
+      handleReadableStream(stream);
+    } catch (err) {
+      setError("Network or server error. Please try again.");
+      setInputDisabled(false);
+      console.error("sendMessage error:", err);
+    }
+  };
 
   const submitActionResult = async (runId: string, toolCallOutputs: any) => {
     const response = await fetch(`/api/assistants/threads/${threadId}/actions`, {
@@ -119,18 +110,14 @@ const Chat = ({
     handleReadableStream(stream);
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-  e.preventDefault();
-  if (!userInput.trim() || inputDisabled) return;
-
-  setMessages((prev) => [...prev, { role: "user", text: userInput }]);
-  const text = userInput;
-  setUserInput("");
-  setInputDisabled(true); // disable immediately
-
-  await sendMessage(text); // wait for full stream
-};
-
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!userInput.trim()) return;
+    sendMessage(userInput);
+    setMessages((prev) => [...prev, { role: "user", text: userInput }]);
+    setUserInput("");
+    setInputDisabled(true);
+  };
 
   const handleTextCreated = () => appendMessage("assistant", "");
   const handleTextDelta = (delta) => {
@@ -143,12 +130,19 @@ const Chat = ({
   const toolCallCreated = (toolCall) => {
     if (toolCall.type === "code_interpreter") appendMessage("code", "");
   };
-  const toolCallDelta = (delta) => {
-    if (delta.type === "code_interpreter" && delta.code_interpreter.input) {
+  interface ToolCallDelta {
+    type: string;
+    code_interpreter?: {
+      input?: string;
+    };
+  }
+
+  const toolCallDelta = (delta: ToolCallDelta) => {
+    if (delta.type === "code_interpreter" && delta.code_interpreter?.input) {
       appendToLastMessage(delta.code_interpreter.input);
     }
   };
-  const handleRequiresAction = async (event: AssistantStreamEvent.ThreadRunRequiresAction) => {
+  const handleRequiresAction = async (event: any) => {
     const runId = event.data.id;
     const toolCalls = event.data.required_action.submit_tool_outputs.tool_calls;
     const toolCallOutputs = await Promise.all(
@@ -202,66 +196,65 @@ const Chat = ({
     });
   };
 
- const handleSuggestedClick = async (text: string) => {
-  setUserInput("");
-  setMessages((prev) => [...prev, { role: "user", text }]);
-  setInputDisabled(true); // disable immediately
-
-  await sendMessage(text); // wait for assistant to complete
-};
-
+  const handleSuggestedClick = (text: string) => {
+    setUserInput(text);
+    sendMessage(text);
+    setMessages((prev) => [...prev, { role: "user", text }]);
+  };
 
   return (
     <div className={styles.chatContainer}>
-      {/* Top Bar stays at top, scrolls away */}
-  <div className={styles.topBar}>
-    <img
-      src="https://res.cloudinary.com/ddjnrebkn/image/upload/v1752596610/all%20folder/download_2_icfqnb.png"
-      alt="UNILAG Logo"
-      className={styles.logo}
-    />
-    <a
-      href="https://unilag.edu.ng"
-      style={{
-        fontWeight: "bold",
-        color: "#6B3F1D",
-        textDecoration: "none",
-        fontSize: "1rem",
-      }}
-    >
-      <h2 className={styles.schoolName}>UNIVERSITY OF LAGOS</h2>
-    </a>
-  </div>
-
-
-<div className={styles.messagesWrapper}>
-        <div ref={messagesRef} className={styles.messages}>
-          {messages.map((msg, index) => (
-            <Message key={index} role={msg.role} text={msg.text} />
-          ))}
-        </div>
+      <div className={styles.header}>
+        <img
+          src="https://res.cloudinary.com/ddjnrebkn/image/upload/v1752596610/all%20folder/download_2_icfqnb.png"
+          alt="UNILAG Logo"
+          className={styles.logo}
+        />
+        <h2 className={styles.schoolName}>UNIVERSITY OF LAGOS</h2>
+        <p className={styles.subHeader}>Student Assistant AI</p>
       </div>
-<div className={styles.suggestedQuestions}>
+
+      {error && (
+        <div style={{ color: 'red', margin: '0.5rem 0', textAlign: 'center' }}>{error}</div>
+      )}
+      {inputDisabled && !error && (
+        <div style={{ textAlign: 'center', color: '#888', marginBottom: '0.5rem' }}>
+          Sending...
+        </div>
+      )}
+
+      <div className={styles.suggestedQuestions}>
         {["Where is the admin block?", "How do I register for courses?", "HOD of All Department", "Unilag Portal Url"].map((q, i) => (
           <button
             key={i}
             onClick={() => handleSuggestedClick(q)}
             className={styles.questionButton}
+            disabled={inputDisabled}
           >
             {q}
           </button>
         ))}
       </div>
 
-      
+      <div className={styles.messagesWrapper}>
+        <div ref={messagesRef} className={styles.messages}>
+          {messages.map((msg, index) => (
+            <Message key={index} role={msg.role} text={msg.text} />
+          ))}
+        </div>
+      </div>
 
       <form onSubmit={handleSubmit} className={`${styles.inputForm} ${styles.clearfix}`}>
         <input
           type="text"
           className={styles.input}
           value={userInput}
-          onChange={(e) => setUserInput(e.target.value)}
+          onChange={(e) => {
+            setUserInput(e.target.value);
+            if (error) setError(null);
+          }}
           placeholder="Enter your question"
+          disabled={inputDisabled}
         />
         <button type="submit" className={styles.button} disabled={inputDisabled}>
           Send
