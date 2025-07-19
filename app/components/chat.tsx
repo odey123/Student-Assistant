@@ -237,12 +237,7 @@ const Chat = ({
   
       </a>
       <div className={styles.chatContainer}>
-      {/* Top Bar stays at top, scrolls away */}
-      
-  
-
-
-<div className={styles.messagesWrapper}>
+      <div className={styles.messagesWrapper}>
         <div ref={messagesRef} className={styles.messages}>
           {messages.map((msg, index) => (
             <Message key={index} role={msg.role} text={msg.text} />
