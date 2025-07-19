@@ -203,35 +203,43 @@ const Chat = ({
   };
 
  const handleSuggestedClick = async (text: string) => {
-  setUserInput("");
-  setMessages((prev) => [...prev, { role: "user", text }]);
-  setInputDisabled(true); // disable immediately
+  if (!text || inputDisabled) return;
 
-  await sendMessage(text); // wait for assistant to complete
+  // ✅ Check if message already exists
+  const alreadySent = messages.some(
+    (msg) => msg.role === "user" && msg.text === text
+  );
+  if (alreadySent) return;
+
+  setUserInput("");
+  setInputDisabled(true);
+
+  // ✅ Add message to UI before sending
+  setMessages((prev) => [...prev, { role: "user", text }]);
+
+  await sendMessage(text); // only backend logic
 };
 
 
   return (
-    <div className={styles.chatContainer}>
-      {/* Top Bar stays at top, scrolls away */}
-  <div className={styles.topBar}>
+    <div>
+      <a href="https://unilag.edu.ng"
+      className={styles.topBar}>
+        
     <img
-      src="https://res.cloudinary.com/ddjnrebkn/image/upload/v1752596610/all%20folder/download_2_icfqnb.png"
+      src="https://res.cloudinary.com/ddjnrebkn/image/upload/v1752887117/all%20folder/png-transparent-university-of-lagos-university-of-ibadan-federal-university-of-technology-owerri-university-of-ilorin-student-text-people-logo_bfxgwb.png"
       alt="UNILAG Logo"
       className={styles.logo}
     />
-    <a
-      href="https://unilag.edu.ng"
-      style={{
-        fontWeight: "bold",
-        color: "#6B3F1D",
-        textDecoration: "none",
-        fontSize: "1rem",
-      }}
-    >
-      <h2 className={styles.schoolName}>UNIVERSITY OF LAGOS</h2>
-    </a>
-  </div>
+   
+      <h2 className={styles.schoolName}>UNIVERSITY <br /> OF LAGOS</h2>
+    
+  
+      </a>
+      <div className={styles.chatContainer}>
+      {/* Top Bar stays at top, scrolls away */}
+      
+  
 
 
 <div className={styles.messagesWrapper}>
@@ -268,6 +276,8 @@ const Chat = ({
         </button>
       </form>
     </div>
+    </div>
+    
   );
 };
 
