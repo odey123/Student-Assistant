@@ -1,0 +1,55 @@
+{
+  "official_websites": {
+    "main_website": "https://unilag.edu.ng",
+    "student_portal": "https://portal.unilag.edu.ng",
+    "admission_portal": "https://admissions.unilag.edu.ng",
+    "staff_portal": "https://staff.unilag.edu.ng",
+    "webmail": "https://webmail.unilag.edu.ng"
+  },
+  "important_portals": {
+    "course_registration": "Access via Student Portal",
+    "result_checking": "Access via Student Portal",
+    "fee_payment": "Generate RRR via Student Portal, pay through Remita",
+    "e_library": "Access via Library website or Student Portal"
+  },
+  "social_media": {
+    "facebook": "University of Lagos - Official",
+    "twitter": "@unilageduofficial",
+    "instagram": "@unilag_official",
+    "youtube": "University of Lagos Official"
+  },
+  "emergency_contacts": {
+    "university_security": "Campus security - Available 24/7",
+    "university_health_services": "Contact UHS for medical emergencies",
+    "campus_fire_service": "Available on campus"
+  },
+  "administrative_contacts": {
+    "vice_chancellor_office": "Contact via Senate Building",
+    "registrar_office": "Contact via Senate Building",
+    "bursary": "For fee-related inquiries",
+    "division_of_student_affairs": "For student welfare and accommodation"
+  },
+  "academic_support": {
+    "library": "Kenneth Dike Library - Main Campus",
+    "ict_department": "For portal and technical issues",
+    "examination_records": "For result and transcript issues"
+  },
+  "email_addresses": {
+    "general_inquiries": "info@unilag.edu.ng",
+    "admissions": "admissions@unilag.edu.ng",
+    "note": "Student email format: firstname.lastname@live.unilag.edu.ng"
+  },
+  "phone_numbers": {
+    "main_switchboard": "+234-1-4932396",
+    "note": "Specific department numbers available on official website"
+  },
+  "physical_addresses": {
+    "main_campus": "University of Lagos, Akoka, Yaba, Lagos State, Nigeria",
+    "college_of_medicine": "College of Medicine, Idi-Araba, Lagos State, Nigeria",
+    "postal_address": "P.M.B. 1003, University of Lagos Post Office, Akoka, Yaba - Lagos"
+  },
+  "office_hours": {
+    "general": "Monday - Friday: 8:00 AM - 5:00 PM",
+    "note": "Specific office hours may vary by department"
+  }
+}

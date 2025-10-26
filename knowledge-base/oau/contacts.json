@@ -1,0 +1,62 @@
+{
+  "university_name": "Obafemi Awolowo University",
+  "short_name": "OAU",
+  "former_name": "University of Ife",
+  "motto": "For Learning and Culture",
+  "address": "Ile-Ife, Osun State, Nigeria",
+
+  "official_contacts": {
+    "general_email": "enquiry@oauife.edu.ng",
+    "registrar_email": "registra@oauife.edu.ng",
+    "enquiry_phone": "08088014185"
+  },
+
+  "websites": {
+    "official_website": "https://oauife.edu.ng",
+    "student_eportal": "https://eportal.oauife.edu.ng/home.php",
+    "admission_portal": "https://admissions.oauife.edu.ng",
+    "postgraduate_portal": "https://apply.oaunetque.com",
+    "transcript_portal": "https://tps.oauife.edu.ng/logintrans.php",
+    "results_portal": "https://eportal.oauife.edu.ng/displayresult.php"
+  },
+
+  "admissions": {
+    "admissions_email": "postutme2025@oauife.edu.ng",
+    "enquiry_email": "enquiry@oauife.edu.ng",
+    "phone": "08088014185"
+  },
+
+  "student_services": {
+    "general_enquiry": "enquiry@oauife.edu.ng",
+    "eportal_support": "Check e-portal for support contacts",
+    "library_email": "library@oauife.edu.ng"
+  },
+
+  "financial_services": {
+    "bursary_email": "bursary@oauife.edu.ng",
+    "fees_payment_portal": "https://eportal.oauife.edu.ng"
+  },
+
+  "key_portals": {
+    "main_eportal": "https://eportal.oauife.edu.ng/home.php",
+    "course_registration": "https://eportal.oauife.edu.ng",
+    "results": "https://eportal.oauife.edu.ng/displayresult.php",
+    "transcripts": "https://tps.oauife.edu.ng/logintrans.php",
+    "admissions": "https://admissions.oauife.edu.ng",
+    "postgraduate": "https://apply.oaunetque.com"
+  },
+
+  "social_media": {
+    "facebook": "Obafemi Awolowo University",
+    "twitter": "@OAUifeOfficial",
+    "instagram": "@oauifeofficial"
+  },
+
+  "key_locations": {
+    "hezekiah_oluwasanmi_library": "Central library - multi-story structure at campus center",
+    "oduduwa_hall": "Main auditorium - iconic inverted-pyramid architecture",
+    "secretariat": "Central administration building",
+    "spider_building": "Faculty of Technology - unique web-like structure",
+    "amphitheatre": "Open-air theatre for events and lectures"
+  }
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "school": "Faculty of Arts and Sciences (FAS)",
+    "divisions": [
+      {
+        "name": "Arts & Humanities",
+        "departments_programs": ["Art, Film, and Visual Studies", "Classics", "Comparative Literature", "English", "Germanic Languages and Literatures", "Music", "Near Eastern Languages and Civilizations", "Philosophy", "Religion", "Romance Languages and Literatures", "Slavic Languages and Literatures", "Theater, Dance & Media"]
+      },
+      {
+        "name": "Social Sciences",
+        "departments_programs": ["African and African American Studies", "Anthropology", "Economics", "Government", "History", "History of Science", "Psychology", "Social Studies", "Sociology"]
+      },
+      {
+        "name": "Sciences",
+        "departments_programs": ["Astronomy", "Chemistry and Chemical Biology", "Earth and Planetary Sciences", "Human Evolutionary Biology", "Mathematics", "Molecular and Cellular Biology", "Organismic and Evolutionary Biology", "Physics", "Statistics", "Stem Cell and Regenerative Biology"]
+      },
+      {
+        "name": "Harvard John A. Paulson School of Engineering and Applied Sciences (SEAS)",
+        "departments_programs": ["Applied Mathematics", "Applied Physics", "Bioengineering", "Computer Science", "Electrical Engineering", "Environmental Science & Engineering", "Materials Science & Mechanical Engineering"]
+      }
+    ]
+  },
+  {
+    "school": "Harvard Business School (HBS)",
+    "departments_programs": ["MBA Program", "Doctoral Programs", "Executive Education"]
+  },
+  {
+    "school": "Harvard Law School (HLS)",
+    "departments_programs": ["JD Program", "LLM Program", "SJD Program", "Various Research Programs and Centers"]
+  },
+  {
+    "school": "Harvard Medical School (HMS)",
+    "departments_programs": ["MD Program", "PhD Programs", "Master's Programs", "Basic Science Departments (Genetics, Microbiology, etc.)", "Clinical Departments (Surgery, Pediatrics, etc.)"]
+  },
+  {
+    "school": "Harvard Kennedy School (HKS)",
+    "departments_programs": ["Master in Public Policy (MPP)", "Master in Public Administration (MPA)", "PhD Programs", "Executive Education"]
+  },
+  {
+    "school": "Harvard Graduate School of Design (GSD)",
+    "departments_programs": ["Architecture", "Landscape Architecture", "Urban Planning and Design"]
+  },
+  {
+    "school": "Harvard Graduate School of Education (HGSE)",
+    "departments_programs": ["Master's Programs (Ed.M.)", "Doctoral Programs (Ed.D., PhD)"]
+  },
+  {
+    "school": "Harvard T.H. Chan School of Public Health (HSPH)",
+    "departments_programs": ["Biostatistics", "Environmental Health", "Epidemiology", "Genetics and Complex Diseases", "Global Health and Population", "Health Policy and Management", "Immunology and Infectious Diseases", "Nutrition", "Social and Behavioral Sciences"]
+  },
+  {
+    "school": "Harvard Divinity School (HDS)",
+    "departments_programs": ["Master of Divinity (MDiv)", "Master of Theological Studies (MTS)", "PhD Programs"]
+  },
+  {
+    "school": "Harvard School of Dental Medicine (HSDM)",
+    "departments_programs": ["DMD Program", "Advanced Graduate Programs"]
+  }
+]

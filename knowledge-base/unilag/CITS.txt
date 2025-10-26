@@ -1,0 +1,106 @@
+Overview
+Full Name: Adetokunbo Babatunde Sofoluwe Centre for Information Technology and Systems (named after a former Vice-Chancellor).
+
+Acronym: ABS-CITS (often shortened to CITS).
+
+Established: 2005, by merging the defunct Computer Centre and the ICT Committee.
+
+Mission: To transform the University of Lagos into an IT-driven system by providing efficient, cost-effective, and state-of-the-art ICT support services for administrative, core business (teaching, learning, research), and ancillary processes.
+
+Vision: To become an ICT support centre with ubiquitous influence over the utilization of ICT tools and solutions, aligning with UNILAG's strategic vision.
+
+Core Values: Professionalism, commitment, loyalty, discipline, self-respect, diligence, and transparent integrity.
+
+Leadership
+Director: Professor Mohammed Olawale Hakeem Amuda. His appointment was renewed for a second two-year term, effective from February 1, 2025, to January 31, 2027.
+
+Deputy Director (NIS - Network Infrastructure Services): Dr. Ibukun Dapo Adewale
+
+Deputy Director (OPS - Operations): Dr. Nwohiri A. M.
+
+ACEO (Admin): Mrs. Mary Wusu
+
+Organizational Structure & Units
+ABS-CITS is structured into six main operational teams, each with specific responsibilities:
+
+Networking Team:
+
+HOD: Mr. Sunday Akinseloyin
+
+Responsibilities: Provides and maintains ubiquitous internet connectivity (Wi-Fi and wired) for staff and students across campuses. Manages the University Data Centre, IP address allocation, Domain Name Services (DNS), and network security (including filtering).
+
+Hardware Team:
+
+HOD: Mr. Clement Ogundiyan
+
+Responsibilities: Runs a central hardware workshop for repairs and maintenance for the university community. Administers computer laboratories, including those used for Computer-Based Tests (CBT). Manages equipment maintenance systems and repair processes. Oversees facility maintenance for the ABS-CITS complex.
+
+ERP (Enterprise Resource Planning) Team:
+
+HOD: Mrs. Gbemisola Williams (also oversees ID Card & Access Control)
+
+Responsibilities: Provides IT support through the administration of the University's Information System (PremierERP), which manages staff and student records.
+
+ID Card and Access Control Team:
+
+HOD: Mrs. Gbemisola Williams (also oversees ERP)
+
+Responsibilities: Issues official ID cards to staff and students and manages related access control systems.
+
+Software Development & E-Services (SD&E) Team:
+
+HOD: Mr. Alex Umuteme (also oversees Web Team)
+
+Responsibilities: Develops bespoke software solutions to meet the automation needs of the University, faculties, departments, and units. Manages various e-services. Involved in e-teaching and e-learning initiatives.
+
+Web Team:
+
+HOD: Mr. Alex Umuteme (also oversees SD&E)
+
+Responsibilities: Develops and manages the official University website (unilag.edu.ng). Handles server administration and maintenance for web services.
+
+Key Services and Responsibilities
+IT Infrastructure: Development, deployment, and maintenance of the campus-wide network (fibre optic and wireless), data centres, and related hardware.
+
+Internet Connectivity: Providing Wi-Fi and wired internet access across the Akoka, Yaba, and Idi-Araba campuses. Currently undertaking a major "Y-Design" Wi-Fi expansion project to enhance coverage.
+
+Email Services: Provision and management of official UNILAG email accounts (@unilag.edu.ng) for staff and students.
+
+Portal Management:
+
+Student Portal (studentportal.unilag.edu.ng): For course registration, fee payment, result checking, profile updates, etc.
+
+Staff Portal (staff.unilag.edu.ng): For staff-related administrative tasks and information access.
+
+E-Learning Platforms: Manages and supports various e-learning platforms:
+
+UNILAG E-Learning Portal (vlearning.unilag.edu.ng): The main Learning Management System (LMS) for regular students.
+
+DLI Learn (dlilearn.unilag.edu.ng): LMS for the Distance Learning Institute.
+
+Facilitates access to platforms like Coursera for staff and students.
+
+Student Records Management: Manages the digital systems (ERP) holding student academic and administrative records.
+
+Technical Support & Helpdesk: Provides technical assistance to staff and students regarding network issues, portal access, email problems, and other IT-related challenges via email (citshelpdesk@unilag.edu.ng) and potentially an online helpdesk portal.
+
+ID Card Production: Issues official identification cards for the university community.
+
+CBT Administration: Manages and provides technical support for computer labs used for examinations and tests.
+
+Software Development: Creates custom applications to automate university processes.
+
+Website Management: Maintains and updates the main UNILAG website.
+
+Policy & Strategy: Contributes to the development and implementation of the University's ICT policy.
+
+Recent Initiatives & News
+Digital Transformation Project: CITS is spearheading a major project involving infrastructure upgrades (Y-Design Wi-Fi), digital ID cards, and a new LMS.
+
+Student Loan Sensitization: The Director, Prof. Amuda, has been actively raising awareness about the Federal Government's Student Loan Programme (NELFUND) and offering CITS support for students facing application difficulties.
+
+Coursera Partnership: CITS facilitated UNILAG's partnership with Coursera to offer free online courses to students and staff for upskilling.
+
+LagMobile App: CITS previously launched the LagMobile app to provide students with information, navigation tools, and GPA calculation features.
+
+CMUL Data Center: CITS supports the network infrastructure connecting to the enhanced data centre at the College of Medicine, Idi-Araba.

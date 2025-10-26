@@ -1,0 +1,13 @@
+{
+  "university_name": "Harvard University",
+  "short_name": "Harvard",
+  "address": "Cambridge, Massachusetts 02138, USA",
+  "official_website": "https://www.harvard.edu/",
+  "undergraduate_admissions_website": "https://college.harvard.edu/admissions",
+  "financial_aid_website": "https://college.harvard.edu/financial-aid",
+  "student_portal": "https://my.harvard.edu/",
+  "net_price_calculator": "https://college.harvard.edu/financial-aid/net-price-calculator",
+  "general_inquiries_phone": "+1 617-495-1000",
+  "undergraduate_admissions_email": "college@harvard.edu",
+  "undergraduate_financial_aid_email": "sfs@fas.harvard.edu"
+}

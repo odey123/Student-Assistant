@@ -1,0 +1,47 @@
+[
+  {
+    "college": "College of Business and Social Sciences (CBSS)",
+    "departments": [
+      "Accounting",
+      "Banking and Finance",
+      "Business Management (Business Administration, Industrial Relations & HRM, Marketing)",
+      "Economics",
+      "Mass Communication",
+      "Sociology"
+    ]
+  },
+  {
+    "college": "College of Engineering (CoE)",
+    "departments": [
+      "Chemical Engineering",
+      "Civil Engineering",
+      "Computer Engineering",
+      "Electrical and Electronics Engineering",
+      "Information and Communication Engineering",
+      "Mechanical Engineering",
+      "Petroleum Engineering"
+    ]
+  },
+  {
+    "college": "College of Leadership Development Studies (CLDS)",
+    "departments": [
+      "Languages and General Studies (English)",
+      "Political Science and International Relations (Political Science, International Relations, Policy & Strategic Studies)",
+      "Psychology"
+    ]
+  },
+  {
+    "college": "College of Science and Technology (CST)",
+    "departments": [
+      "Architecture",
+      "Biochemistry",
+      "Biological Sciences (Biology, Microbiology)",
+      "Building Technology",
+      "Chemistry",
+      "Computer and Information Sciences (Computer Science, Management Information Systems)",
+      "Estate Management",
+      "Mathematics",
+      "Physics"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "university_name": "University of Nigeria, Nsukka",
+  "short_name": "UNN",
+  "address_nsukka": "Nsukka, Enugu State, Nigeria",
+  "address_unec": "Enugu Campus, Enugu State, Nigeria",
+  "address_medicine": "Ituku-Ozalla, Enugu State, Nigeria",
+  "official_website": "https://www.unn.edu.ng/",
+  "student_portal": "https://unnportal.unn.edu.ng/",
+  "result_checking": "https://unnportal.unn.edu.ng/Student/CheckResults.aspx",
+  "general_email": "customerservice.ict@unn.edu.ng",
+  "admissions_email_undergraduate": "admission@unn.edu.ng",
+  "admissions_email_postgraduate": "pgadmission@unn.edu.ng",
+  "registrar_email": "registrar@unn.edu.ng"
+}

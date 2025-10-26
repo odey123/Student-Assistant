@@ -1,0 +1,70 @@
+[
+  {
+    "faculty": "Faculty of Agriculture",
+    "departments": ["Agricultural Economics", "Agricultural Extension", "Animal Science", "Crop Science", "Food Science and Technology", "Home Science, Nutrition and Dietetics", "Soil Science"]
+  },
+  {
+    "faculty": "Faculty of Arts",
+    "departments": ["Archaeology and Tourism", "English and Literary Studies", "Fine and Applied Arts", "Foreign Languages and Literary Studies", "History and International Studies", "Linguistics, Igbo and Other Nigerian Languages", "Mass Communication", "Music", "Theatre and Film Studies"]
+  },
+  {
+    "faculty": "Faculty of Basic Medical Sciences",
+    "departments": ["Human Anatomy", "Medical Biochemistry", "Human Physiology"]
+  },
+  {
+    "faculty": "Faculty of Biological Sciences",
+    "departments": ["Biochemistry", "Botany", "Microbiology", "Zoology and Environmental Biology"]
+  },
+  {
+    "faculty": "Faculty of Business Administration (UNEC)",
+    "departments": ["Accountancy", "Banking and Finance", "Management", "Marketing"]
+  },
+  {
+    "faculty": "Faculty of Clinical Sciences (Ituku-Ozalla)",
+    "departments": ["Anaesthesia", "Community Medicine", "Chemical Pathology", "Haematology and Immunology", "Medical Microbiology", "Medicine", "Morbid Anatomy", "Obstetrics and Gynaecology", "Ophthalmology", "Otolaryngology", "Paediatrics", "Pharmacology and Therapeutics", "Psychological Medicine", "Radiation Medicine", "Surgery"]
+  },
+  {
+    "faculty": "Faculty of Dentistry (Ituku-Ozalla)",
+    "departments": ["Child Dental Health", "Oral and Maxillofacial Surgery", "Preventive Dentistry", "Restorative Dentistry"]
+  },
+  {
+    "faculty": "Faculty of Education",
+    "departments": ["Adult Education and Extra-Mural Studies", "Arts Education", "Educational Foundations", "Guidance and Counselling", "Health and Physical Education", "Library and Information Science", "Science Education", "Social Science Education"]
+  },
+  {
+    "faculty": "Faculty of Engineering",
+    "departments": ["Agricultural and Bioresources Engineering", "Civil Engineering", "Electrical Engineering", "Electronic Engineering", "Mechanical Engineering", "Mechatronic Engineering"]
+  },
+  {
+    "faculty": "Faculty of Environmental Studies (UNEC)",
+    "departments": ["Architecture", "Estate Management", "Geoinformatics and Surveying", "Urban and Regional Planning"]
+  },
+  {
+    "faculty": "Faculty of Health Sciences and Technology (Ituku-Ozalla)",
+    "departments": ["Health Administration and Management", "Medical Laboratory Sciences", "Medical Radiography and Radiological Sciences", "Medical Rehabilitation", "Nursing Sciences"]
+  },
+  {
+    "faculty": "Faculty of Law (UNEC)",
+    "departments": ["Commercial and Property Law", "International Law and Jurisprudence", "Public and Private Law"]
+  },
+  {
+    "faculty": "Faculty of Pharmaceutical Sciences",
+    "departments": ["Clinical Pharmacy and Pharmacy Management", "Pharmaceutical and Medicinal Chemistry", "Pharmaceutical Microbiology and Biotechnology", "Pharmaceutical Technology and Industrial Pharmacy", "Pharmacognosy and Environmental Medicines", "Pharmacology and Toxicology"]
+  },
+  {
+    "faculty": "Faculty of Physical Sciences",
+    "departments": ["Computer Science", "Geology", "Mathematics", "Physics and Astronomy", "Pure and Industrial Chemistry", "Statistics"]
+  },
+  {
+    "faculty": "Faculty of Social Sciences",
+    "departments": ["Economics", "Geography", "Philosophy", "Political Science", "Psychology", "Public Administration and Local Government", "Religion and Cultural Studies", "Social Work", "Sociology and Anthropology"]
+  },
+  {
+    "faculty": "Faculty of Veterinary Medicine",
+    "departments": ["Animal Health and Production", "Veterinary Anatomy", "Veterinary Medicine", "Veterinary Obstetrics and Reproductive Diseases", "Veterinary Parasitology and Entomology", "Veterinary Pathology and Microbiology", "Veterinary Physiology and Pharmacology", "Veterinary Public Health and Preventive Medicine", "Veterinary Surgery and Radiology"]
+  },
+  {
+    "faculty": "Faculty of Vocational Technical Education",
+    "departments": ["Agricultural Education", "Business Education", "Computer Education", "Home Economics Education", "Industrial Technical Education"]
+  }
+]

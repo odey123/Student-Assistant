@@ -1,0 +1,661 @@
+{
+  "university": "University of Ilorin",
+  "shortName": "UNILORIN",
+  "faculties": [
+    {
+      "name": "Faculty of Agriculture",
+      "dean": "[Contact university for current dean]",
+      "email": "agriculture@unilorin.edu.ng",
+      "office": "Faculty of Agriculture Building, Main Campus",
+      "departments": [
+        {
+          "name": "Business Agriculture",
+          "hod": "[Contact department]",
+          "programs": []
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Arts",
+      "dean": "[Contact university for current dean]",
+      "email": "arts@unilorin.edu.ng",
+      "office": "Faculty of Arts Building, Main Campus",
+      "departments": [
+        {
+          "name": "Arabic",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "English",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "French",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "History and International Studies",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Linguistics and Nigerian Languages",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Performing Arts",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Religions",
+          "hod": "[Contact department]",
+          "programs": []
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Communication and Information Sciences",
+      "dean": "[Contact university for current dean]",
+      "email": "cis@unilorin.edu.ng",
+      "office": "Faculty Building, Main Campus",
+      "departments": [
+        {
+          "name": "Computer Science",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Computer Science",
+              "duration": "4 years"
+            }
+          ]
+        },
+        {
+          "name": "Information and Communication Science",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Library and Information Science",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Library and Information Science",
+              "duration": "4 years"
+            }
+          ]
+        },
+        {
+          "name": "Mass Communication",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Mass Communication",
+              "duration": "4 years"
+            }
+          ]
+        },
+        {
+          "name": "Telecommunication Science",
+          "hod": "[Contact department]",
+          "programs": []
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Education",
+      "dean": "[Contact university for current dean]",
+      "email": "education@unilorin.edu.ng",
+      "office": "Faculty of Education Building, Main Campus",
+      "departments": [
+        {
+          "name": "Adult and Primary Education",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Arts Education",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Computer Science Education",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Counsellor Education",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Educational Management",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Educational Technology",
+          "hod": "[Contact department]",
+          "programs": []
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Engineering and Technology",
+      "dean": "[Contact university for current dean]",
+      "email": "engineering@unilorin.edu.ng",
+      "office": "Faculty of Engineering Building, Main Campus",
+      "departments": [
+        {
+          "name": "Agricultural and Biosystems Engineering",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Eng.",
+              "program": "Agricultural and Biosystems Engineering",
+              "duration": "5 years"
+            }
+          ]
+        },
+        {
+          "name": "Biomedical Engineering",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Eng.",
+              "program": "Biomedical Engineering",
+              "duration": "5 years"
+            }
+          ]
+        },
+        {
+          "name": "Chemical Engineering",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Eng.",
+              "program": "Chemical Engineering",
+              "duration": "5 years"
+            }
+          ]
+        },
+        {
+          "name": "Civil Engineering",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Eng.",
+              "program": "Civil Engineering",
+              "duration": "5 years"
+            }
+          ]
+        },
+        {
+          "name": "Computer Engineering",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Eng.",
+              "program": "Computer Engineering",
+              "duration": "5 years"
+            }
+          ]
+        },
+        {
+          "name": "Electrical Engineering",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Eng.",
+              "program": "Electrical Engineering",
+              "duration": "5 years"
+            }
+          ]
+        },
+        {
+          "name": "Food and Bio-process Engineering",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Mechanical Engineering",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Eng.",
+              "program": "Mechanical Engineering",
+              "duration": "5 years"
+            }
+          ]
+        },
+        {
+          "name": "Metallurgical Engineering",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Water Resources and Environmental Engineering",
+          "hod": "[Contact department]",
+          "programs": []
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Environmental Sciences",
+      "dean": "[Contact university for current dean]",
+      "email": "envsc@unilorin.edu.ng",
+      "office": "Faculty Building, Main Campus",
+      "departments": [
+        {
+          "name": "Architecture",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Architecture",
+              "duration": "5 years"
+            }
+          ]
+        },
+        {
+          "name": "Quantity Surveying",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Quantity Surveying",
+              "duration": "4 years"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Law",
+      "dean": "[Contact university for current dean]",
+      "email": "law@unilorin.edu.ng",
+      "office": "Faculty of Law Building, Main Campus",
+      "departments": [
+        {
+          "name": "Business Law",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Common Law",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Islamic Law",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Jurisprudence and International Law",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Private and Property Law",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Public Law",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "LL.B.",
+              "program": "Law",
+              "duration": "5 years"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Life Sciences",
+      "dean": "[Contact university for current dean]",
+      "email": "lifesciences@unilorin.edu.ng",
+      "office": "Faculty Building, Main Campus",
+      "departments": []
+    },
+    {
+      "name": "Faculty of Management Sciences",
+      "dean": "[Contact university for current dean]",
+      "email": "management@unilorin.edu.ng",
+      "office": "Faculty Building, Main Campus",
+      "departments": [
+        {
+          "name": "Estate Management",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Estate Management",
+              "duration": "4 years"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Pharmaceutical Sciences",
+      "dean": "[Contact university for current dean]",
+      "email": "pharmacy@unilorin.edu.ng",
+      "office": "Faculty Building, Main Campus/Mini Campus",
+      "departments": [
+        {
+          "name": "Medicinal Chemistry",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Pharmaceutics and Microbiology",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Industrial Pharmacy",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Pharmacognosy and Drug Development",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Pharmacology and Toxicology",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Pharm.",
+              "program": "Pharmacy",
+              "duration": "5 years"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Physical Sciences",
+      "dean": "[Contact university for current dean]",
+      "email": "physicalsciences@unilorin.edu.ng",
+      "office": "Faculty of Physical Sciences Building, Main Campus",
+      "departments": [
+        {
+          "name": "Biochemistry",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Biochemistry",
+              "duration": "4 years"
+            }
+          ]
+        },
+        {
+          "name": "Chemistry",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Chemistry",
+              "duration": "4 years"
+            }
+          ]
+        },
+        {
+          "name": "Geology and Mineral Sciences",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Geology",
+              "duration": "4 years"
+            }
+          ]
+        },
+        {
+          "name": "Mathematics",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Mathematics",
+              "duration": "4 years"
+            }
+          ]
+        },
+        {
+          "name": "Microbiology",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Microbiology",
+              "duration": "4 years"
+            }
+          ]
+        },
+        {
+          "name": "Physics",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Physics",
+              "duration": "4 years"
+            }
+          ]
+        },
+        {
+          "name": "Plant Biology",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Plant Biology",
+              "duration": "4 years"
+            }
+          ]
+        },
+        {
+          "name": "Statistics",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Statistics",
+              "duration": "4 years"
+            }
+          ]
+        },
+        {
+          "name": "Zoology",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Zoology",
+              "duration": "4 years"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Social Sciences",
+      "dean": "[Contact university for current dean]",
+      "email": "socialsciences@unilorin.edu.ng",
+      "office": "Faculty of Social Sciences Building, Main Campus",
+      "departments": [
+        {
+          "name": "Economics",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Economics",
+              "duration": "4 years"
+            }
+          ]
+        },
+        {
+          "name": "Geography",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Geography",
+              "duration": "4 years"
+            }
+          ]
+        },
+        {
+          "name": "Political Science",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Political Science",
+              "duration": "4 years"
+            }
+          ]
+        },
+        {
+          "name": "Psychology",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Psychology",
+              "duration": "4 years"
+            }
+          ]
+        },
+        {
+          "name": "Social Work",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Social Work",
+              "duration": "4 years"
+            }
+          ]
+        },
+        {
+          "name": "Sociology",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "B.Sc.",
+              "program": "Sociology",
+              "duration": "4 years"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Veterinary Medicine",
+      "dean": "[Contact university for current dean]",
+      "email": "vetmed@unilorin.edu.ng",
+      "office": "Faculty Building, Main Campus",
+      "departments": [
+        {
+          "name": "Veterinary Anatomy",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Veterinary Medicine",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "D.V.M.",
+              "program": "Veterinary Medicine",
+              "duration": "6 years"
+            }
+          ]
+        },
+        {
+          "name": "Veterinary Microbiology",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Veterinary Pathology",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Veterinary Surgery",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Veterinary Public Health",
+          "hod": "[Contact department]",
+          "programs": []
+        }
+      ]
+    },
+    {
+      "name": "College of Health Sciences",
+      "dean": "[Contact university for current provost/dean]",
+      "email": "healthsciences@unilorin.edu.ng",
+      "office": "Mini Campus",
+      "departments": [
+        {
+          "name": "Basic Medical Sciences",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Basic Clinical Sciences",
+          "hod": "[Contact department]",
+          "programs": []
+        },
+        {
+          "name": "Clinical Sciences",
+          "hod": "[Contact department]",
+          "programs": [
+            {
+              "degree": "M.B.B.S.",
+              "program": "Medicine and Surgery",
+              "duration": "6 years"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "schools_and_institutes": [
+    {
+      "name": "Postgraduate School",
+      "director": "[Contact university]",
+      "office": "Postgraduate School Building, Main Campus"
+    },
+    {
+      "name": "Ilorin Business School",
+      "director": "[Contact university]",
+      "office": "Ilorin Business School Building"
+    },
+    {
+      "name": "Institute of Education",
+      "director": "[Contact university]",
+      "office": "Institute of Education Building"
+    }
+  ]
+}

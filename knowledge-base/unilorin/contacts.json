@@ -1,0 +1,97 @@
+{
+  "university": "University of Ilorin",
+  "shortName": "UNILORIN",
+  "general": {
+    "main_phone": "+234 805 087 8080",
+    "email": "registrar@unilorin.edu.ng",
+    "website": "https://www.unilorin.edu.ng",
+    "address": "P.M.B. 1515, Ilorin, Kwara State, Nigeria"
+  },
+  "admissions": {
+    "phone": "+234 805 087 8080",
+    "email": "admissions@unilorin.edu.ng",
+    "portal": "[TO BE UPDATED - Check official website]"
+  },
+  "registry": {
+    "phone": "+234 805 087 8080",
+    "email": "registrar@unilorin.edu.ng",
+    "registrar": "Mr. Mansur Adeleke Alfanla, FCIML"
+  },
+  "bursary": {
+    "phone": "[Contact Registry for Bursary phone]",
+    "email": "bursary@unilorin.edu.ng",
+    "bursar": "Mr. Abiodun Lawal, FCNA"
+  },
+  "student_affairs": {
+    "phone": "[Contact Registry]",
+    "email": "studentaffairs@unilorin.edu.ng"
+  },
+  "academic_affairs": {
+    "phone": "[Contact Registry]",
+    "email": "academics@unilorin.edu.ng",
+    "dvc_academics": "Professor Moji Taibat Bakare-Odunola"
+  },
+  "library": {
+    "phone": "[Contact Main Library]",
+    "email": "library@unilorin.edu.ng",
+    "librarian": "Professor Kamal Tunde Omopupa"
+  },
+  "emergencies": {
+    "security": "[TO BE UPDATED - Contact Campus Security]",
+    "health_center": "[TO BE UPDATED - Contact Health Center]",
+    "ambulance": "[TO BE UPDATED]",
+    "fire_service": "[TO BE UPDATED]"
+  },
+  "portals": {
+    "student_portal": "[TO BE UPDATED - Check official website]",
+    "elearning": "[TO BE UPDATED - Check official website]",
+    "library_portal": "[TO BE UPDATED - Check official website]",
+    "admission_portal": "[TO BE UPDATED - Check official website]"
+  },
+  "media": {
+    "unilorin_fm": "[Contact for frequency and details]",
+    "unilorin_tv": "[Contact for details]"
+  },
+  "social_media": {
+    "facebook": "[TO BE UPDATED]",
+    "twitter": "[TO BE UPDATED]",
+    "instagram": "[TO BE UPDATED]",
+    "linkedin": "[TO BE UPDATED]"
+  },
+  "important_offices": {
+    "vice_chancellor": {
+      "name": "Professor Wahab Olasupo Egbewole, SAN",
+      "office": "Senate Building, Main Campus",
+      "email": "[Contact through Registry]"
+    },
+    "physical_planning": {
+      "phone": "[Contact Registry]",
+      "email": "physicalplanning@unilorin.edu.ng"
+    },
+    "works_and_maintenance": {
+      "phone": "[Contact Registry]",
+      "email": "works@unilorin.edu.ng"
+    },
+    "ict_center": {
+      "phone": "[Contact Center]",
+      "email": "ict@unilorin.edu.ng"
+    }
+  },
+  "faculties": {
+    "agriculture": "agriculture@unilorin.edu.ng",
+    "arts": "arts@unilorin.edu.ng",
+    "communication_and_information": "cis@unilorin.edu.ng",
+    "education": "education@unilorin.edu.ng",
+    "engineering": "engineering@unilorin.edu.ng",
+    "environmental_sciences": "envsc@unilorin.edu.ng",
+    "law": "law@unilorin.edu.ng",
+    "life_sciences": "lifesciences@unilorin.edu.ng",
+    "management": "management@unilorin.edu.ng",
+    "pharmaceutical_sciences": "pharmacy@unilorin.edu.ng",
+    "physical_sciences": "physicalsciences@unilorin.edu.ng",
+    "social_sciences": "socialsciences@unilorin.edu.ng",
+    "veterinary_medicine": "vetmed@unilorin.edu.ng",
+    "health_sciences": "healthsciences@unilorin.edu.ng"
+  },
+  "note": "Some contact details marked [TO BE UPDATED] require verification from official university sources. Contact the Registry (+234 805 087 8080 or registrar@unilorin.edu.ng) for specific department contacts."
+}

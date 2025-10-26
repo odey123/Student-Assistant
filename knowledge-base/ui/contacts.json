@@ -1,0 +1,70 @@
+{
+  "university_name": "University of Ibadan",
+  "short_name": "UI",
+  "motto": "Recte Sapere Fons",
+  "motto_translation": "To think straight is the fount of knowledge",
+  "address": "Ibadan, Oyo State, Nigeria",
+
+  "official_contacts": {
+    "main_phone": "+234-2-8103043",
+    "general_email": "info@ui.edu.ng",
+    "registrar_email": "registrar@ui.edu.ng"
+  },
+
+  "websites": {
+    "official_website": "https://ui.edu.ng",
+    "student_portal": "https://portal.ui.edu.ng",
+    "admission_portal": "https://admissions.ui.edu.ng",
+    "postgraduate_portal": "https://pgcollege.ui.edu.ng"
+  },
+
+  "admissions": {
+    "undergraduate_email": "ugadmissions@ui.edu.ng",
+    "postgraduate_email": "graduatestudies@pgcollege.ui.edu.ng",
+    "admission_portal": "https://admissions.ui.edu.ng"
+  },
+
+  "student_services": {
+    "student_affairs": "studentaffairs@ui.edu.ng",
+    "portal_support": "portalsupport@ui.edu.ng",
+    "ict_support": "ictsupport@ui.edu.ng",
+    "library_email": "library@ui.edu.ng"
+  },
+
+  "financial_services": {
+    "bursary_email": "bursary@ui.edu.ng",
+    "fees_inquiries": "bursary@ui.edu.ng"
+  },
+
+  "academic_services": {
+    "academic_affairs": "academicaffairs@ui.edu.ng",
+    "examinations": "examinations@ui.edu.ng",
+    "registry": "registrar@ui.edu.ng"
+  },
+
+  "social_media": {
+    "facebook": "https://facebook.com/UniversityofIbadan",
+    "twitter": "@UnibadanNGR",
+    "instagram": "@unibadanofficial",
+    "youtube": "University of Ibadan"
+  },
+
+  "emergency_contacts": {
+    "campus_security": "+234-2-8103043",
+    "health_center": "Contact through main line",
+    "fire_emergency": "Contact security"
+  },
+
+  "key_locations": {
+    "tower_court": "Main administrative building",
+    "kenneth_dike_library": "Central library",
+    "student_union_building": "SUB - Student activities hub",
+    "uch": "University College Hospital - Teaching hospital"
+  },
+
+  "office_hours": {
+    "administrative_offices": "Monday - Friday, 8:00 AM - 4:00 PM",
+    "library": "Monday - Saturday, extended hours during exams",
+    "student_portal": "24/7 online access"
+  }
+}

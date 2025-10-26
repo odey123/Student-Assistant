@@ -1,0 +1,86 @@
+UNIVERSITY OF NIGERIA, NSUKKA - ACADEMIC PROCEDURES
+
+Student Portal:
+UNN utilizes an integrated University Portal for most student applications, registration, and result checking.
+Portal URL: https://unnportal.unn.edu.ng/
+
+REGISTRATION PROCESS:
+
+1. Acceptance Fee Payment:
+   - Newly admitted students pay a non-refundable acceptance fee
+   - Fee: Approximately ₦30,000
+   - Payment via portal using Remita platform
+
+2. Screening (Fresh Students):
+   - Freshers undergo online and/or physical screening
+   - Required documents to upload/present:
+     * O'Level results (WAEC/NECO)
+     * JAMB admission letter
+     * Birth certificate/Age declaration
+     * Passport photographs
+     * Other credentials as specified
+   - Verification of credentials
+
+3. School Fees Payment:
+   - After acceptance, generate payment invoice (Remita RRR) from portal
+   - Fees include:
+     * Tuition
+     * Accommodation (if allocated hostel)
+     * ICT fees
+     * Library fees
+     * Other university charges
+   - Pay online via Remita or at designated banks
+   - Keep payment receipt for verification
+
+4. Course Registration:
+   - Upon payment confirmation, register for courses online
+   - Access portal: https://unnportal.unn.edu.ng/
+   - Register within specified period
+   - Select courses according to department's curriculum
+   - Meet prerequisites for courses
+
+5. Validation:
+   - Print course registration forms
+   - Submit to Department for validation
+   - Course Adviser/HOD validates registration
+   - Keep validated copy for records
+
+EXAMINATIONS:
+
+Format:
+- Examinations conducted at the end of each semester
+- Mix of traditional written exams and Computer-Based Tests (CBTs)
+- Continuous assessment during semester
+- Final examinations
+
+Requirements:
+- Must be properly registered for courses
+- Attend minimum required classes (usually 75%)
+- Complete all continuous assessments
+- Meet all course requirements
+
+RESULTS:
+
+Checking Results:
+- Semester results released online
+- Login to UNN Portal: https://unnportal.unn.edu.ng/Student/CheckResults.aspx
+- Results show course grades, semester GPA, and CGPA
+- Grades follow standard university grading system
+
+Official Transcripts:
+- Apply through Registry or portal
+- Make required payment
+- Processing takes time - apply early
+- Official stamped transcripts for employment/further studies
+
+Important Portal Links:
+- Main Portal: https://unnportal.unn.edu.ng/
+- Result Checking: https://unnportal.unn.edu.ng/Student/CheckResults.aspx
+
+Important Notes:
+- Keep portal login credentials secure
+- Check portal regularly for announcements
+- Meet all registration and payment deadlines
+- Late registration attracts penalties
+- Contact ICT department for technical portal issues
+- Different campuses (Nsukka, UNEC, Ituku-Ozalla) may have specific procedures

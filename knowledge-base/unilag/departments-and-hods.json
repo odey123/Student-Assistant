@@ -1,0 +1,237 @@
+{
+  "faculties": [
+    {
+      "name": "Faculty of Arts",
+      "dean": "TBA - Check faculty website",
+      "departments": [
+        {
+          "name": "Department of English",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of History and Strategic Studies",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Philosophy",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Creative Arts",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Linguistics, African and Asian Studies",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Foreign Languages",
+          "hod": "Check department notice board or website for current HOD"
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Science",
+      "dean": "TBA - Check faculty website",
+      "departments": [
+        {
+          "name": "Department of Biochemistry",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Botany",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Chemistry",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Computer Science",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Mathematics",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Microbiology",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Physics",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Zoology",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Cell Biology and Genetics",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Marine Sciences",
+          "hod": "Check department notice board or website for current HOD"
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Engineering",
+      "dean": "TBA - Check faculty website",
+      "departments": [
+        {
+          "name": "Department of Chemical and Polymer Engineering",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Civil and Environmental Engineering",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Electrical and Electronics Engineering",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Mechanical Engineering",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Systems Engineering",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Metallurgical and Materials Engineering",
+          "hod": "Check department notice board or website for current HOD"
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Social Sciences",
+      "dean": "TBA - Check faculty website",
+      "departments": [
+        {
+          "name": "Department of Economics",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Geography",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Mass Communication",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Political Science",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Psychology",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Sociology",
+          "hod": "Check department notice board or website for current HOD"
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Business Administration",
+      "dean": "TBA - Check faculty website",
+      "departments": [
+        {
+          "name": "Department of Accounting",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Actuarial Science and Insurance",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Business Administration",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Finance",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Industrial Relations and Personnel Management",
+          "hod": "Check department notice board or website for current HOD"
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Education",
+      "dean": "TBA - Check faculty website",
+      "departments": [
+        {
+          "name": "Department of Educational Administration",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Arts and Social Sciences Education",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Science and Technology Education",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Educational Foundations",
+          "hod": "Check department notice board or website for current HOD"
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Law",
+      "dean": "TBA - Check faculty website",
+      "departments": [
+        {
+          "name": "Department of Public Law",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Private and Business Law",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of International Law and Jurisprudence",
+          "hod": "Check department notice board or website for current HOD"
+        }
+      ]
+    },
+    {
+      "name": "Faculty of Environmental Sciences",
+      "dean": "TBA - Check faculty website",
+      "departments": [
+        {
+          "name": "Department of Architecture",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Estate Management",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Quantity Surveying",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Surveying and Geoinformatics",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Urban and Regional Planning",
+          "hod": "Check department notice board or website for current HOD"
+        },
+        {
+          "name": "Department of Building",
+          "hod": "Check department notice board or website for current HOD"
+        }
+      ]
+    }
+  ],
+  "note": "HODs and Deans change periodically. Please visit the official UNILAG website or contact the respective department directly for the most current information."
+}

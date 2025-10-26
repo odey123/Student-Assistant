@@ -1,0 +1,188 @@
+[
+  {
+    "faculty": "Faculty of Arts",
+    "departments": [
+      "Arabic and Islamic Studies",
+      "Archaeology and Anthropology",
+      "Classics",
+      "Communication and Language Arts",
+      "English",
+      "European Studies (French, German, Russian)",
+      "History",
+      "Linguistics and African Languages",
+      "Music",
+      "Philosophy",
+      "Religious Studies",
+      "Theatre Arts"
+    ]
+  },
+  {
+    "faculty": "Faculty of Science",
+    "departments": [
+      "Archaeology and Anthropology",
+      "Botany",
+      "Chemistry",
+      "Computer Science",
+      "Geography",
+      "Geology",
+      "Mathematics",
+      "Microbiology",
+      "Physics",
+      "Statistics",
+      "Zoology"
+    ]
+  },
+  {
+    "faculty": "Faculty of Basic Medical Sciences",
+    "departments": [
+      "Anatomy",
+      "Biochemistry",
+      "Chemical Pathology",
+      "Haematology",
+      "Medical Microbiology and Parasitology",
+      "Pathology",
+      "Pharmacology and Therapeutics",
+      "Physiology"
+    ]
+  },
+  {
+    "faculty": "Faculty of Clinical Sciences",
+    "departments": [
+      "Anaesthesia",
+      "Medicine",
+      "Nursing",
+      "Obstetrics and Gynaecology",
+      "Ophthalmology",
+      "Otorhinolaryngology (Ear, Nose, and Throat)",
+      "Paediatrics",
+      "Psychiatry",
+      "Radiology (Radiation Oncology)",
+      "Surgery"
+    ]
+  },
+  {
+    "faculty": "Faculty of Dentistry",
+    "departments": [
+      "Child Oral Health",
+      "Oral and Maxillofacial Surgery",
+      "Oral Pathology",
+      "Periodontology and Community Dentistry",
+      "Restorative Dentistry"
+    ]
+  },
+  {
+    "faculty": "Faculty of Public Health",
+    "departments": [
+      "Biostatistics",
+      "Environmental Health Sciences",
+      "Epidemiology and Medical Statistics",
+      "Health Policy and Management",
+      "Health Promotion and Education",
+      "Human Nutrition and Dietetics"
+    ]
+  },
+  {
+    "faculty": "Faculty of Pharmacy",
+    "departments": [
+      "Pharmaceutical Chemistry",
+      "Pharmaceutical Microbiology",
+      "Pharmaceutics and Industrial Pharmacy",
+      "Pharmacognosy",
+      "Pharmacology and Toxicology",
+      "Clinical Pharmacy and Pharmacy Administration"
+    ]
+  },
+  {
+    "faculty": "Faculty of Agriculture",
+    "departments": [
+      "Agricultural Economics",
+      "Agricultural Extension and Rural Development",
+      "Agronomy",
+      "Animal Science",
+      "Crop Protection and Environmental Biology"
+    ]
+  },
+  {
+    "faculty": "Faculty of the Social Sciences",
+    "departments": [
+      "Economics",
+      "Geography",
+      "Political Science",
+      "Psychology",
+      "Sociology"
+    ]
+  },
+  {
+    "faculty": "Faculty of Education",
+    "departments": [
+      "Adult Education",
+      "Counselling and Human Development Studies",
+      "Educational Management",
+      "Human Kinetics",
+      "Health Education",
+      "Library, Archival and Information Studies",
+      "Arts and Social Science Education (ASSE)",
+      "Science and Technology Education (STE)"
+    ]
+  },
+  {
+    "faculty": "Faculty of Veterinary Medicine",
+    "departments": [
+      "Veterinary Anatomy",
+      "Veterinary Medicine",
+      "Veterinary Microbiology and Parasitology",
+      "Veterinary Pathology",
+      "Veterinary Physiology and Biochemistry",
+      "Veterinary Public Health and Preventive Medicine",
+      "Veterinary Surgery and Radiology"
+    ]
+  },
+  {
+    "faculty": "Faculty of Technology",
+    "departments": [
+      "Agricultural and Environmental Engineering",
+      "Civil Engineering",
+      "Electrical and Electronic Engineering",
+      "Food Technology",
+      "Industrial and Production Engineering",
+      "Mechanical Engineering",
+      "Petroleum Engineering",
+      "Wood Products Engineering"
+    ]
+  },
+  {
+    "faculty": "Faculty of Law",
+    "departments": [
+      "Commercial and Industrial Law",
+      "Private and Property Law",
+      "Public and International Law"
+    ]
+  },
+  {
+    "faculty": "Faculty of Renewable Natural Resources",
+    "departments": [
+      "Aquaculture and Fisheries Management",
+      "Forest Production and Products",
+      "Social and Environmental Forestry",
+      "Wildlife and Ecotourism Management"
+    ]
+  },
+  {
+    "faculty": "Faculty of Environmental Design & Management",
+    "departments": [
+      "Architecture",
+      "Estate Management",
+      "Quantity Surveying",
+      "Urban and Regional Planning"
+    ]
+  },
+  {
+    "faculty": "Faculty of Economics & Management Sciences",
+    "departments": [
+      "Accounting",
+      "Banking and Finance",
+      "Economics",
+      "Marketing"
+    ]
+  }
+]

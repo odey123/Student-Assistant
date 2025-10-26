@@ -1,0 +1,150 @@
+[
+  {
+    "faculty": "Faculty of Administration",
+    "departments": [
+      "International Relations",
+      "Local Government and Development Studies",
+      "Management and Accounting",
+      "Public Administration"
+    ]
+  },
+  {
+    "faculty": "Faculty of Agriculture",
+    "departments": [
+      "Agricultural Economics",
+      "Animal Sciences",
+      "Crop Production and Protection",
+      "Family Nutrition And Consumer Sciences",
+      "Plant Science",
+      "Soil Science",
+      "Agricultural Extension And Rural Development"
+    ]
+  },
+  {
+    "faculty": "Faculty of Arts",
+    "departments": [
+      "History",
+      "Music",
+      "Linguistics And African Languages",
+      "Dramatic Arts",
+      "Philosophy",
+      "English",
+      "Foreign Languages",
+      "Religious Studies"
+    ]
+  },
+  {
+    "faculty": "Faculty of Basic Medical Sciences",
+    "departments": [
+      "Anatomy and Cell Biology",
+      "Medical Biochemistry",
+      "Physiology"
+    ]
+  },
+  {
+    "faculty": "Faculty of Clinical Sciences",
+    "departments": [
+      "Medicine",
+      "Community Health",
+      "Psychiatry",
+      "Dermatology"
+    ]
+  },
+  {
+    "faculty": "Faculty of Dentistry",
+    "departments": [
+      "Child Dental Health",
+      "Oral and Maxillofacial Surgery and Oral Pathology",
+      "Preventive and Community Dentistry",
+      "Restorative Dentistry"
+    ]
+  },
+  {
+    "faculty": "Institute of Public Health",
+    "departments": [
+      "Nursing",
+      "Medical Rehabilitation"
+    ]
+  },
+  {
+    "faculty": "Faculty of Education",
+    "departments": [
+      "Adult Education and Lifelong Learning",
+      "Arts and Social Sciences Education",
+      "Educational Foundation And Counseling",
+      "Educational Management",
+      "Institute of Education",
+      "Physical And Health Education",
+      "Science And Technology Education"
+    ]
+  },
+  {
+    "faculty": "Faculty of Environmental Design and Management",
+    "departments": [
+      "Architecture",
+      "Building",
+      "Estate Management",
+      "Fine And Applied Arts",
+      "Quantity Surveying",
+      "Urban and Regional Planning",
+      "Surveying And Geoinformatics"
+    ]
+  },
+  {
+    "faculty": "Faculty of Law",
+    "departments": [
+      "Business Law",
+      "International Law",
+      "Jurisprudence and Private Law",
+      "Public Law"
+    ]
+  },
+  {
+    "faculty": "Faculty of Pharmacy",
+    "departments": [
+      "Clinical Pharmacy and Pharmacy Administration",
+      "Drug Research and Production Unit",
+      "Pharmaceutical Chemistry",
+      "Pharmaceutics",
+      "Pharmacognosy",
+      "Pharmacology"
+    ]
+  },
+  {
+    "faculty": "Faculty of Sciences",
+    "departments": [
+      "Biochemistry",
+      "Botany",
+      "Chemistry",
+      "Geology",
+      "Mathematics",
+      "Microbiology",
+      "Physics",
+      "Zoology"
+    ]
+  },
+  {
+    "faculty": "Faculty of Social Sciences",
+    "departments": [
+      "Demography and Social Statistics",
+      "Economics",
+      "Geography",
+      "Political Science",
+      "Psychology",
+      "Sociology and Anthropology"
+    ]
+  },
+  {
+    "faculty": "Faculty of Technology",
+    "departments": [
+      "Agricultural and Environmental Engineering",
+      "Chemical Engineering",
+      "Civil Engineering",
+      "Computer Science and Engineering",
+      "Electronic and Electrical Engineering",
+      "Food Science and Technology",
+      "Material Science and Engineering",
+      "Mechanical Engineering"
+    ]
+  }
+]

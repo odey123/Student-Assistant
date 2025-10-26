@@ -1,0 +1,95 @@
+[
+  {
+    "school": "School of Agriculture & Agricultural Technology (SAAT)",
+    "departments": [
+      "Agricultural and Resource Economics",
+      "Agricultural Extension and Communication Technology",
+      "Animal Production and Health",
+      "Crop, Soil and Pest Management",
+      "Ecotourism and Wildlife Management",
+      "Fisheries and Aquaculture Technology",
+      "Food Science and Technology",
+      "Forestry and Wood Technology"
+    ]
+  },
+  {
+    "school": "School of Engineering & Engineering Technology (SEET)",
+    "departments": [
+      "Agricultural and Environmental Engineering",
+      "Civil and Environmental Engineering",
+      "Computer Engineering",
+      "Electrical and Electronics Engineering",
+      "Industrial and Production Engineering",
+      "Mechanical Engineering",
+      "Metallurgical and Materials Engineering",
+      "Mining Engineering"
+    ]
+  },
+  {
+    "school": "School of Sciences (SOS)",
+    "departments": [
+      "Biochemistry",
+      "Biology",
+      "Biotechnology",
+      "Chemistry",
+      "Mathematical Sciences",
+      "Microbiology",
+      "Physics",
+      "Statistics"
+    ]
+  },
+  {
+    "school": "School of Environmental Technology (SET)",
+    "departments": [
+      "Architecture",
+      "Building",
+      "Estate Management",
+      "Industrial Design",
+      "Quantity Surveying",
+      "Surveying and Geoinformatics",
+      "Urban and Regional Planning"
+    ]
+  },
+  {
+    "school": "School of Earth & Mineral Sciences (SEMS)",
+    "departments": [
+      "Applied Geophysics",
+      "Applied Geology",
+      "Marine Science and Technology",
+      "Meteorology and Climate Science",
+      "Remote Sensing and Geoscience Information Systems"
+    ]
+  },
+  {
+    "school": "School of Computing (SCOM)",
+    "departments": [
+      "Computer Science",
+      "Cybersecurity Science",
+      "Information Systems",
+      "Information Technology",
+      "Software Engineering"
+    ]
+  },
+  {
+    "school": "School of Health & Health Technology (SHHT)",
+    "departments": [
+      "Anatomy",
+      "Biomedical Technology",
+      "Human Physiology",
+      "Optometry",
+      "Prosthetics and Orthotics",
+      "Dental Technology"
+    ]
+  },
+  {
+    "school": "School of Management Technology (SMAT)",
+    "departments": [
+      "Accounting",
+      "Business Administration",
+      "Economics",
+      "Entrepreneurship",
+      "Project Management Technology",
+      "Transport Management Technology"
+    ]
+  }
+]
