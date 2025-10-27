@@ -82,16 +82,7 @@ const Chat = ({
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const prevUniversityRef = useRef(selectedUniversity.id);
 
-  // Clear chat when university changes
-  useEffect(() => {
-    if (prevUniversityRef.current !== selectedUniversity.id) {
-      console.log(`University changed from ${prevUniversityRef.current} to ${selectedUniversity.id}`);
-      startNewChat();
-      prevUniversityRef.current = selectedUniversity.id;
-    }
-  }, [selectedUniversity.id]);
-
-  // Load chat histories and current chat on mount or when university changes
+  // Load chat histories and current chat when university changes
   useEffect(() => {
     const storageKey = `${selectedUniversity.id}-chat-histories`;
     const currentIdKey = `${selectedUniversity.id}-current-chat-id`;
@@ -105,12 +96,12 @@ const Chat = ({
         setChatHistories(parsed);
 
         if (savedCurrentId && parsed.find((h: ChatHistory) => h.id === savedCurrentId)) {
-          // Load the current chat
+          // Load the existing current chat for this university
           const currentChat = parsed.find((h: ChatHistory) => h.id === savedCurrentId);
           setCurrentChatId(savedCurrentId);
           setMessages(currentChat.messages);
         } else {
-          // Create new chat
+          // No valid current chat, start new one
           startNewChat();
         }
       } catch (e) {
@@ -121,6 +112,8 @@ const Chat = ({
       // First time user for this university - start new chat
       startNewChat();
     }
+
+    prevUniversityRef.current = selectedUniversity.id;
   }, [selectedUniversity.id]);
 
   useEffect(() => {

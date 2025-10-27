@@ -1,0 +1,13 @@
+{
+  "university_name": "University of Oxford",
+  "short_name": "Oxford",
+  "address": "University Offices, Wellington Square, Oxford, OX1 2JD, United Kingdom",
+  "official_website": "https://www.ox.ac.uk/",
+  "undergraduate_admissions_website": "https://www.ox.ac.uk/admissions/undergraduate",
+  "graduate_admissions_website": "https://www.ox.ac.uk/admissions/graduate",
+  "fees_and_funding_website": "https://www.ox.ac.uk/students/fees-funding",
+  "ucas_website": "https://www.ucas.com/",
+  "general_inquiries_phone": "+44 1865 270000",
+  "undergraduate_admissions_contact_form": "https://www.ox.ac.uk/admissions/undergraduate/applying-to-oxford/contact-us",
+  "graduate_admissions_contact_form": "https://www.ox.ac.uk/admissions/graduate/contact-us"
+}

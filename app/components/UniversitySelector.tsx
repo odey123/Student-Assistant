@@ -55,7 +55,7 @@ export default function UniversitySelector() {
         className={styles.selectorButton}
         onClick={() => setIsOpen(!isOpen)}
         aria-label="Select university"
-        aria-expanded={isOpen}
+        aria-expanded={isOpen ? "true" : "false"}
       >
         <div className={styles.selectedUniversity}>
           {selectedUniversity.logo && (

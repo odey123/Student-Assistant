@@ -25,8 +25,14 @@ function getFullUniversityName(id) {
     'unilorin': 'University of Ilorin',
     'ui': 'University of Ibadan',
     'oau': 'Obafemi Awolowo University',
+    'uniben': 'University of Benin',
     'unn': 'University of Nigeria, Nsukka',
-    'abu': 'Ahmadu Bello University'
+    'futa': 'Federal University of Technology, Akure',
+    'covenant': 'Covenant University',
+    'abu': 'Ahmadu Bello University',
+    'harvard': 'Harvard University',
+    'mit': 'Massachusetts Institute of Technology',
+    'oxford': 'University of Oxford'
   };
   return names[id] || id.toUpperCase();
 }

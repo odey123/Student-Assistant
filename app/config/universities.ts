@@ -263,11 +263,12 @@ export const universities: University[] = [
     logo: '/logos/oxford.png',
     website: 'https://ox.ac.uk',
     colors: {
-      primary: '#002147',
-      secondary: '#FFFFFF',
-      accent: '#C5004A'
+      primary: '#002147',      // Oxford Blue (distinctive dark blue)
+      secondary: '#FFFFFF',    // White
+      accent: '#C5004A'        // Oxford Magenta
     },
-    enabled: false
+    assistantId: process.env.OXFORD_ASSISTANT_ID,
+    enabled: true
   },
   {
     id: 'cambridge',
@@ -306,11 +307,12 @@ export const universities: University[] = [
     logo: '/logos/mit.png',
     website: 'https://mit.edu',
     colors: {
-      primary: '#A31F34',
-      secondary: '#8A8B8C',
-      accent: '#000000'
+      primary: '#A31F34',      // MIT Cardinal Red (distinctive from Harvard #A51C30)
+      secondary: '#8A8B8C',    // MIT Gray
+      accent: '#000000'        // Black
     },
-    enabled: false
+    assistantId: process.env.MIT_ASSISTANT_ID,
+    enabled: true
   },
   {
     id: 'stanford',

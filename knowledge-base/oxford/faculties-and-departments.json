@@ -1,0 +1,78 @@
+[
+  {
+    "division": "Humanities",
+    "faculties_departments": [
+      "Faculty of Classics",
+      "Faculty of English Language and Literature",
+      "Faculty of History",
+      "Faculty of Linguistics, Philology and Phonetics",
+      "Faculty of Medieval and Modern Languages",
+      "Faculty of Music",
+      "Faculty of Oriental Studies",
+      "Faculty of Philosophy",
+      "Faculty of Theology and Religion",
+      "Ruskin School of Art",
+      "History of Art Department",
+      "Oxford Research Centre in the Humanities (TORCH)"
+    ]
+  },
+  {
+    "division": "Mathematical, Physical and Life Sciences (MPLS)",
+    "faculties_departments": [
+      "Department of Chemistry",
+      "Department of Computer Science",
+      "Department of Earth Sciences",
+      "Department of Engineering Science",
+      "Department of Materials",
+      "Mathematical Institute",
+      "Department of Physics",
+      "Department of Plant Sciences",
+      "Department of Statistics",
+      "Department of Zoology",
+      "Department of Biology (integrating Plant Sciences and Zoology)"
+    ]
+  },
+  {
+    "division": "Medical Sciences",
+    "faculties_departments": [
+      "Department of Biochemistry",
+      "Nuffield Department of Clinical Medicine (NDM)",
+      "Nuffield Department of Clinical Neurosciences (NDCN)",
+      "Department of Experimental Psychology",
+      "Radcliffe Department of Medicine (RDM)",
+      "Department of Oncology",
+      "Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences (NDORMS)",
+      "Department of Paediatrics",
+      "Sir William Dunn School of Pathology",
+      "Department of Pharmacology",
+      "Department of Physiology, Anatomy and Genetics (DPAG)",
+      "Nuffield Department of Population Health (NDPH)",
+      "Department of Psychiatry",
+      "Nuffield Department of Primary Care Health Sciences",
+      "Nuffield Department of Surgical Sciences (NDS)",
+      "Nuffield Department of Women's & Reproductive Health"
+    ]
+  },
+  {
+    "division": "Social Sciences",
+    "faculties_departments": [
+      "School of Anthropology and Museum Ethnography",
+      "School of Archaeology",
+      "Saïd Business School",
+      "Department of Economics",
+      "Department of Education",
+      "School of Geography and the Environment",
+      "Blavatnik School of Government",
+      "School of Interdisciplinary Area Studies",
+      "Faculty of Law",
+      "Oxford Internet Institute",
+      "Department of Politics and International Relations",
+      "Department of Social Policy and Intervention",
+      "Department of Sociology"
+    ]
+  },
+  {
+    "division": "Department for Continuing Education",
+    "notes": "Offers part-time courses, summer schools, and professional development programs."
+  }
+]

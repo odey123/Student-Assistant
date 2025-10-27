@@ -1,0 +1,73 @@
+[
+  {
+    "school": "School of Architecture and Planning",
+    "departments_programs": [
+      "Architecture",
+      "Media Arts and Sciences (Media Lab)",
+      "Urban Studies and Planning",
+      "Center for Real Estate"
+    ]
+  },
+  {
+    "school": "School of Engineering",
+    "departments_programs": [
+      "Aeronautics and Astronautics",
+      "Biological Engineering",
+      "Chemical Engineering",
+      "Civil and Environmental Engineering",
+      "Electrical Engineering and Computer Science (Shared with College of Computing)",
+      "Materials Science and Engineering",
+      "Mechanical Engineering",
+      "Nuclear Science and Engineering",
+      "Institute for Medical Engineering and Science (IMES)"
+    ]
+  },
+  {
+    "school": "School of Humanities, Arts, and Social Sciences (SHASS)",
+    "departments_programs": [
+      "Anthropology",
+      "Comparative Media Studies/Writing",
+      "Economics",
+      "Global Languages",
+      "History",
+      "Linguistics and Philosophy",
+      "Literature",
+      "Music and Theater Arts",
+      "Political Science",
+      "Science, Technology, and Society (STS)"
+    ]
+  },
+  {
+    "school": "MIT Sloan School of Management",
+    "departments_programs": [
+      "MBA Programs",
+      "Executive MBA",
+      "Master's Programs (e.g., Finance, Business Analytics)",
+      "PhD Programs",
+      "Undergraduate Programs (Courses 15)",
+      "Executive Education"
+    ]
+  },
+  {
+    "school": "School of Science",
+    "departments_programs": [
+      "Biology",
+      "Brain and Cognitive Sciences",
+      "Chemistry",
+      "Earth, Atmospheric and Planetary Sciences",
+      "Mathematics",
+      "Physics",
+      "Picower Institute for Learning and Memory",
+      "McGovern Institute for Brain Research"
+    ]
+  },
+  {
+    "college": "MIT Schwarzman College of Computing",
+    "departments_programs": [
+      "Electrical Engineering and Computer Science (EECS - Shared with School of Engineering)",
+      "Operations Research Center (ORC - Shared)",
+      "Institute for Data, Systems, and Society (IDSS)",
+      "Artificial Intelligence and Decision Making Faculty"
+    ]
+  }
+]
