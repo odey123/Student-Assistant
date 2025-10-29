@@ -1,0 +1,136 @@
+[
+  {
+    "faculty": "Faculty of Agriculture",
+    "departments": [
+      "Agricultural Economics and Extension",
+      "Animal Science",
+      "Crop and Soil Science",
+      "Fisheries",
+      "Forestry and Wildlife"
+    ]
+  },
+  {
+    "faculty": "Faculty of Basic Medical Sciences",
+    "departments": [
+      "Anatomy",
+      "Human Physiology",
+      "Medical Biochemistry"
+    ]
+  },
+  {
+    "faculty": "Faculty of Clinical Sciences",
+    "departments": [
+      "Anaesthesiology",
+      "Anatomical Pathology",
+      "Chemical Pathology",
+      "Haematology, Blood Transfusion & Immunology",
+      "Internal Medicine",
+      "Medical Microbiology",
+      "Obstetrics and Gynaecology",
+      "Ophthalmology",
+      "Otorhinolaryngology",
+      "Paediatrics and Child Health",
+      "Pharmacology",
+      "Preventive and Social Medicine",
+      "Psychiatry",
+      "Radiology",
+      "Surgery"
+    ]
+  },
+  {
+    "faculty": "Faculty of Dentistry",
+    "departments": [
+      "Restoration Dentistry",
+      "Child Dental Health",
+      "Oral & Maxillofacial Surgery",
+      "Preventive & Social Dentistry",
+      "Oral Pathology & Oral Biology"
+    ]
+  },
+  {
+    "faculty": "Faculty of Education",
+    "departments": [
+      "Adult & Non-Formal Education",
+      "Curriculum Studies & Educational Technology",
+      "Educational Foundations",
+      "Educational Management and Planning",
+      "Education Psychology, Guidance & Counselling",
+      "Human Kinetics & Health Education",
+      "Library and Information Science"
+    ]
+  },
+  {
+    "faculty": "Faculty of Engineering",
+    "departments": [
+      "Chemical Engineering",
+      "Petroleum Engineering",
+      "Gas Engineering",
+      "Civil Engineering",
+      "Environmental Engineering",
+      "Electrical Engineering",
+      "Electronic and Computer Engineering",
+      "Mechanical Engineering"
+    ]
+  },
+  {
+    "faculty": "Faculty of Humanities",
+    "departments": [
+      "Fine Art and Design",
+      "Music",
+      "Theatre Arts",
+      "English Studies",
+      "Foreign Languages and Literature",
+      "History and Diplomatic Studies",
+      "Linguistics and Communication studies",
+      "Philosophy",
+      "Religious and Cultural Studies"
+    ]
+  },
+  {
+    "faculty": "Faculty of Law",
+    "departments": ["Public Law", "Private Law", "Jurisprudence and International Law"]
+  },
+  {
+    "faculty": "Faculty of Management Sciences",
+    "departments": [
+      "Accounting",
+      "Finance and Banking",
+      "Management",
+      "Marketing",
+      "Hospitality Management and Tourism"
+    ]
+  },
+  {
+    "faculty": "Faculty of Pharmaceutical Sciences",
+    "departments": [
+      "Clinical Pharmacy and Management",
+      "Pharmaceutical and Medicinal Chemistry",
+      "Pharmaceutical Microbiology and Biotechnology",
+      "Experimental Pharmacology and Toxicology"
+    ]
+  },
+  {
+    "faculty": "Faculty of Science",
+    "departments": [
+      "Physics",
+      "Biochemistry",
+      "Plant Science and Biotechnology",
+      "Animal And Environmental Biology",
+      "Microbiology",
+      "Geology",
+      "Computer Science",
+      "Mathematics and Statistics",
+      "Pure And Industrial Chemistry"
+    ]
+  },
+  {
+    "faculty": "Faculty of Social Sciences",
+    "departments": [
+      "Economics",
+      "Geography & Environmental Management",
+      "Sociology",
+      "Political & Administrative Studies",
+      "Social Work"
+    ]
+  }
+]

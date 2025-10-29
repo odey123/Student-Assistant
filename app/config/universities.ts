@@ -77,11 +77,44 @@ export const universities: University[] = [
     logo: '/logos/abu.png',
     website: 'https://abu.edu.ng',
     colors: {
-      primary: '#00563F',
-      secondary: '#FFFFFF',
-      accent: '#FFD700'
+      primary: '#006B3F',      // Forest Green (ABU's distinctive green)
+      secondary: '#FFD700',    // Gold
+      accent: '#FFFFFF'        // White
     },
-    enabled: false
+    assistantId: process.env.ABU_ASSISTANT_ID,
+    enabled: true
+  },
+  {
+    id: 'buk',
+    name: 'Bayero University, Kano',
+    shortName: 'BUK',
+    country: 'Nigeria',
+    state: 'Kano',
+    logo: '/logos/buk.png',
+    website: 'https://www.buk.edu.ng',
+    colors: {
+      primary: '#8B4513',      // Saddle Brown (BUK's distinctive brown/earth tone)
+      secondary: '#DAA520',    // Goldenrod
+      accent: '#FFFFFF'        // White
+    },
+    assistantId: process.env.BUK_ASSISTANT_ID,
+    enabled: true
+  },
+  {
+    id: 'unizik',
+    name: 'Nnamdi Azikiwe University',
+    shortName: 'UNIZIK',
+    country: 'Nigeria',
+    state: 'Anambra',
+    logo: '/logos/unizik.png',
+    website: 'https://unizik.edu.ng',
+    colors: {
+      primary: '#1E3A8A',      // Deep Blue (UNIZIK's distinctive blue)
+      secondary: '#FFD700',    // Gold
+      accent: '#FFFFFF'        // White
+    },
+    assistantId: process.env.UNIZIK_ASSISTANT_ID,
+    enabled: true
   },
   {
     id: 'oau',
@@ -122,13 +155,14 @@ export const universities: University[] = [
     country: 'Nigeria',
     state: 'Rivers',
     logo: '/logos/uniport.png',
-    website: 'https://uniport.edu.ng',
+    website: 'https://www.uniport.edu.ng',
     colors: {
-      primary: '#003366',
-      secondary: '#FFFFFF',
-      accent: '#006400'
+      primary: '#004D00',      // Dark Green (UNIPORT's distinctive green)
+      secondary: '#FFD700',    // Gold
+      accent: '#FFFFFF'        // White
     },
-    enabled: false
+    assistantId: process.env.UNIPORT_ASSISTANT_ID,
+    enabled: true
   },
   {
     id: 'unilorin',
@@ -253,8 +287,39 @@ export const universities: University[] = [
     assistantId: process.env.COVENANT_ASSISTANT_ID,
     enabled: true
   },
+  {
+    id: 'babcock',
+    name: 'Babcock University',
+    shortName: 'Babcock',
+    country: 'Nigeria',
+    state: 'Ogun',
+    logo: '/logos/babcock.jpg',
+    website: 'https://www.babcock.edu.ng',
+    colors: {
+      primary: '#8B0000',      // Dark Red (Babcock's distinctive maroon/burgundy)
+      secondary: '#FFD700',    // Gold
+      accent: '#FFFFFF'        // White
+    },
+    assistantId: process.env.BABCOCK_ASSISTANT_ID,
+    enabled: true
+  },
 
   // INTERNATIONAL UNIVERSITIES
+  {
+    id: 'uct',
+    name: 'University of Cape Town',
+    shortName: 'UCT',
+    country: 'South Africa',
+    logo: '/logos/uct.png',
+    website: 'https://www.uct.ac.za',
+    colors: {
+      primary: '#003366',      // Navy Blue (UCT's distinctive blue)
+      secondary: '#C8102E',    // Red
+      accent: '#FFFFFF'        // White
+    },
+    assistantId: process.env.UCT_ASSISTANT_ID,
+    enabled: true
+  },
   {
     id: 'oxford',
     name: 'University of Oxford',

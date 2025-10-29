@@ -1,0 +1,62 @@
+[
+  {
+    "faculty": "Faculty of Agriculture",
+    "departments": ["Agricultural Economics & Extension", "Agronomy", "Animal Science", "Crop Protection", "Fisheries and Aquaculture", "Food Science & Technology", "Forestry and Wildlife Management", "Soil Science"]
+  },
+  {
+    "faculty": "Faculty of Arts and Islamic Studies",
+    "departments": ["Arabic", "English and Literary Studies", "French", "Hausa", "History", "Islamic Studies", "Linguistics and Foreign Languages", "Nigerian Languages"]
+  },
+  {
+    "faculty": "Faculty of Basic Medical Sciences",
+    "departments": ["Anatomy", "Medical Biochemistry", "Physiology"]
+  },
+  {
+    "faculty": "Faculty of Clinical Sciences",
+    "departments": ["Anaesthesiology", "Chemical Pathology", "Community Medicine", "Haematology and Blood Transfusion", "Medical Microbiology and Parasitology", "Medicine", "Obstetrics and Gynaecology", "Ophthalmology", "Paediatrics", "Pathology (Morbid Anatomy)", "Psychiatry", "Radiology", "Surgery", "Otorhinolaryngology"]
+  },
+  {
+    "faculty": "Faculty of Communication",
+    "departments": ["Information and Media Studies", "Mass Communication", "Theatre Arts and Film Studies"]
+  },
+  {
+    "faculty": "Faculty of Computer Science & Information Technology",
+    "departments": ["Computer Science", "Cyber Security", "Information Technology", "Software Engineering"]
+  },
+  {
+    "faculty": "Faculty of Earth & Environmental Sciences",
+    "departments": ["Architecture", "Environmental Management", "Estate Management", "Geography", "Geology", "Quantity Surveying", "Urban and Regional Planning"]
+  },
+  {
+    "faculty": "Faculty of Education",
+    "departments": ["Adult Education and Community Services", "Education", "Library and Information Science", "Physical and Health Education", "Science and Technology Education", "Special Education"]
+  },
+  {
+    "faculty": "Faculty of Engineering",
+    "departments": ["Agricultural & Bio-Resources Engineering", "Civil Engineering", "Chemical & Petroleum Engineering", "Electrical Engineering", "Mechanical Engineering", "Mechatronics Engineering", "Automotive Engineering"]
+  },
+  {
+    "faculty": "Faculty of Law",
+    "departments": ["Islamic Law", "Private and Commercial Law", "Public and International Law"]
+  },
+  {
+    "faculty": "Faculty of Life Sciences",
+    "departments": ["Applied Biology", "Biochemistry", "Biological Sciences", "Botany", "Microbiology", "Plant Biology", "Zoology"]
+  },
+  {
+    "faculty": "Faculty of Management Sciences",
+    "departments": ["Accounting", "Business Administration", "Public Administration", "Taxation", "Entrepreneurship Studies"]
+  },
+  {
+    "faculty": "Faculty of Pharmaceutical Sciences",
+    "departments": ["Clinical Pharmacy & Pharmacy Practice", "Pharmaceutical & Medicinal Chemistry", "Pharmaceutics & Pharmaceutical Microbiology", "Pharmacognosy & Herbal Medicine", "Pharmacology & Therapeutics"]
+  },
+  {
+    "faculty": "Faculty of Physical Sciences",
+    "departments": ["Chemistry", "Mathematical Sciences", "Physics", "Statistics"]
+  },
+  {
+    "faculty": "Faculty of Social Sciences",
+    "departments": ["Criminology and Security Studies", "Economics", "International Relations", "Political Science", "Sociology"]
+  }
+]

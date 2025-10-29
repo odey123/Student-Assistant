@@ -1,0 +1,84 @@
+[
+  {
+    "faculty": "Faculty of Commerce",
+    "departments_schools": [
+      "College of Accounting",
+      "Department of Finance and Tax",
+      "School of Economics",
+      "Department of Information Systems",
+      "School of Management Studies",
+      "Graduate School of Business"
+    ]
+  },
+  {
+    "faculty": "Faculty of Engineering & the Built Environment (EBE)",
+    "departments_schools": [
+      "School of Architecture, Planning & Geomatics",
+      "Department of Chemical Engineering",
+      "Department of Civil Engineering",
+      "Department of Construction Economics and Management",
+      "Department of Electrical Engineering",
+      "Department of Mechanical Engineering"
+    ]
+  },
+  {
+    "faculty": "Faculty of Health Sciences",
+    "departments_schools": [
+      "Department of Anaesthesia",
+      "Department of Health and Rehabilitation Sciences",
+      "Department of Human Biology",
+      "Department of Medicine",
+      "Department of Obstetrics and Gynaecology",
+      "Department of Paediatrics and Child Health",
+      "Department of Pathology",
+      "Department of Psychiatry and Mental Health",
+      "Department of Public Health and Family Medicine",
+      "Department of Surgery"
+    ]
+  },
+  {
+    "faculty": "Faculty of Humanities",
+    "departments_schools": [
+      "School of African and Gender Studies, Anthropology and Linguistics",
+      "School of Dance",
+      "School of Drama",
+      "School of Education",
+      "Department of English Literary Studies",
+      "School of Fine Art (Michaelis)",
+      "Department of Historical Studies",
+      "School of Languages and Literatures",
+      "Department of Philosophy",
+      "Department of Political Studies",
+      "Department of Psychology",
+      "Department of Religious Studies",
+      "Department of Social Development",
+      "Department of Sociology",
+      "South African College of Music"
+    ]
+  },
+  {
+    "faculty": "Faculty of Law",
+    "departments_schools": [
+      "Department of Commercial Law",
+      "Department of Private Law",
+      "Department of Public Law"
+    ]
+  },
+  {
+    "faculty": "Faculty of Science",
+    "departments_schools": [
+      "Department of Archaeology",
+      "Department of Astronomy",
+      "Department of Biological Sciences",
+      "Department of Chemistry",
+      "Department of Computer Science",
+      "Department of Environmental and Geographical Science",
+      "Department of Geological Sciences",
+      "Department of Mathematics and Applied Mathematics",
+      "Department of Molecular and Cell Biology",
+      "Department of Oceanography",
+      "Department of Physics",
+      "Department of Statistical Sciences"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  { "faculty": "Faculty of Administration", "departments": ["Accounting", "Business Administration", "Local Government & Development Studies", "Public Administration"] },
+  { "faculty": "Faculty of Agriculture", "departments": ["Agricultural Economics & Rural Sociology", "Agronomy", "Animal Science", "Crop Protection", "Plant Science", "Soil Science"] },
+  { "faculty": "Faculty of Arts", "departments": ["African Languages & Cultures", "Arabic", "Archaeology", "English & Literary Studies", "Fine Arts", "French", "Hausa", "History", "Theatre & Performing Arts"] },
+  { "faculty": "Faculty of Education", "departments": ["Arts & Social Science Education", "Educational Foundations & Curriculum", "Library & Information Science", "Physical & Health Education", "Science Education", "Vocational & Technical Education"] },
+  { "faculty": "Faculty of Engineering", "departments": ["Agricultural & Bio-Resources Engineering", "Chemical Engineering", "Civil Engineering", "Computer Engineering", "Electrical Engineering", "Mechanical Engineering", "Metallurgical & Materials Engineering", "Water Resources & Environmental Engineering"] },
+  { "faculty": "Faculty of Environmental Design", "departments": ["Architecture", "Building", "Fine Arts", "Geomatics", "Glass & Silicone Technology", "Industrial Design", "Quantity Surveying", "Urban & Regional Planning"] },
+  { "faculty": "Faculty of Law", "departments": ["Commercial Law", "Islamic Law", "Private Law", "Public Law"] },
+  { "faculty": "Faculty of Life Sciences", "departments": ["Biochemistry", "Biological Sciences", "Botany", "Microbiology", "Zoology"] },
+  { "faculty": "Faculty of Physical Sciences", "departments": ["Chemistry", "Computer Science", "Geography", "Geology", "Mathematics", "Physics", "Statistics", "Textile Science & Technology"] },
+  { "faculty": "Faculty of Social Sciences", "departments": ["Economics", "Mass Communication", "Political Science & International Studies", "Sociology"] },
+  { "faculty": "Faculty of Veterinary Medicine", "departments": ["Theriogenology & Production", "Veterinary Anatomy", "Veterinary Medicine", "Veterinary Microbiology", "Veterinary Parasitology & Entomology", "Veterinary Pathology", "Veterinary Physiology", "Veterinary Pharmacology & Toxicology", "Veterinary Public Health & Preventive Medicine", "Veterinary Surgery & Radiology"] },
+  { "faculty": "Faculty of Pharmaceutical Sciences", "departments": ["Clinical Pharmacy & Pharmacy Practice", "Pharmaceutical & Medicinal Chemistry", "Pharmaceutics & Pharmaceutical Microbiology", "Pharmacognosy & Drug Development", "Pharmacology & Therapeutics"] },
+  { "faculty": "Faculty of Basic Clinical Sciences", "departments": ["Chemical Pathology", "Haematology & Blood Transfusion", "Human Anatomy", "Human Physiology", "Medical Microbiology"] },
+  { "faculty": "Faculty of Clinical Sciences", "departments": ["Anaesthesia", "Community Medicine", "Medicine", "Nursing Sciences", "Obstetrics & Gynaecology", "Ophthalmology", "Paediatrics", "Pathology", "Psychiatry", "Radiology", "Surgery"] },
+  { "faculty": "Faculty of Allied Health Sciences", "departments": ["Medical Laboratory Science", "Medical Radiography", "Physiotherapy"] }
+]

@@ -1,0 +1,166 @@
+{
+  "university_name": "Babcock University",
+  "abbreviation": "BU",
+  "address": "Ilishan-Remo, Ogun State, Nigeria",
+  "official_website": "https://www.babcock.edu.ng/",
+  "admissions_portal": "https://application2.babcock.edu.ng/",
+  "student_portal": "https://www.babcock.edu.ng/ (Access via main website)",
+  
+  "general_contact": {
+    "email": "info@babcock.edu.ng",
+    "phone": ["+234 816 303 2222", "+234 812 645 6667"],
+    "note": "Verify current numbers on website"
+  },
+  
+  "admissions": {
+    "email": "admissions@babcock.edu.ng",
+    "phone": ["+234 816 303 2222", "+234 812 645 6667"],
+    "portal": "https://application2.babcock.edu.ng/"
+  },
+  
+  "registrar": {
+    "name": "Dr. Jonathan C. Nwosu",
+    "email": "registrar@babcock.edu.ng",
+    "office": "Registrar's Office"
+  },
+  
+  "bursar": {
+    "name": "Mr. Folorunso Akande",
+    "email": "bursar@babcock.edu.ng",
+    "office": "Bursar's Office"
+  },
+  
+  "president": {
+    "name": "Professor Ademola S. Tayo",
+    "title": "President/Vice-Chancellor",
+    "email": "president@babcock.edu.ng"
+  },
+  
+  "academic_affairs": {
+    "email": "academic@babcock.edu.ng",
+    "office": "Academic Affairs Office"
+  },
+  
+  "student_affairs": {
+    "email": "studentaffairs@babcock.edu.ng",
+    "office": "Student Support Services"
+  },
+  
+  "examinations": {
+    "email": "examinations@babcock.edu.ng",
+    "office": "Examinations Office"
+  },
+  
+  "library": {
+    "name": "Laz Otti Memorial Library",
+    "email": "library@babcock.edu.ng",
+    "librarian": "Dr. Nkiko M. K. Utor"
+  },
+  
+  "teaching_hospital": {
+    "name": "Babcock University Teaching Hospital (BUTH)",
+    "email": "buth@babcock.edu.ng"
+  },
+  
+  "health_centre": {
+    "name": "University Health Centre",
+    "email": "healthcentre@babcock.edu.ng"
+  },
+  
+  "schools": [
+    {
+      "name": "School of Agriculture & Industrial Technology",
+      "email": "agriculture@babcock.edu.ng"
+    },
+    {
+      "name": "Babcock Business School",
+      "email": "businessschool@babcock.edu.ng"
+    },
+    {
+      "name": "School of Basic Medical Sciences",
+      "email": "basicmedical@babcock.edu.ng"
+    },
+    {
+      "name": "School of Clinical Sciences",
+      "email": "clinicalsciences@babcock.edu.ng"
+    },
+    {
+      "name": "School of Computing & Engineering Sciences",
+      "email": "computing@babcock.edu.ng"
+    },
+    {
+      "name": "School of Education & Humanities",
+      "email": "education@babcock.edu.ng"
+    },
+    {
+      "name": "School of Law & Security Studies",
+      "email": "law@babcock.edu.ng"
+    },
+    {
+      "name": "School of Nursing Sciences",
+      "email": "nursing@babcock.edu.ng"
+    },
+    {
+      "name": "School of Public & Allied Health",
+      "email": "publichealth@babcock.edu.ng"
+    },
+    {
+      "name": "School of Science & Technology",
+      "email": "science@babcock.edu.ng"
+    },
+    {
+      "name": "School of Environmental Sciences",
+      "email": "environmental@babcock.edu.ng"
+    },
+    {
+      "name": "College of Postgraduate Studies",
+      "email": "postgraduate@babcock.edu.ng"
+    }
+  ],
+  
+  "social_media": {
+    "facebook": "https://www.facebook.com/BabcockUniversity",
+    "twitter": "https://twitter.com/BabcockUni",
+    "instagram": "https://www.instagram.com/babcockuniversity",
+    "youtube": "https://www.youtube.com/c/BabcockUniversity",
+    "note": "Verify current social media handles on official website"
+  },
+  
+  "emergency_contacts": {
+    "security": "Contact main security office on campus",
+    "medical_emergency": "University Health Centre / BUTH",
+    "note": "Emergency numbers available on campus and in student handbook"
+  },
+  
+  "important_links": {
+    "main_website": "https://www.babcock.edu.ng/",
+    "application_portal": "https://application2.babcock.edu.ng/",
+    "student_portal": "Access via main website",
+    "jamb_website": "https://www.jamb.gov.ng/",
+    "nuc_website": "https://www.nuc.edu.ng/"
+  },
+  
+  "postal_address": {
+    "address_line_1": "Babcock University",
+    "address_line_2": "Ilishan-Remo",
+    "city": "Ilishan-Remo",
+    "state": "Ogun State",
+    "country": "Nigeria",
+    "note": "Use this address for postal correspondence"
+  },
+  
+  "location": {
+    "state": "Ogun State",
+    "lga": "Ikenne Local Government Area",
+    "town": "Ilishan-Remo",
+    "description": "Equidistant between Ibadan and Lagos",
+    "accessibility": "Accessible via Lagos-Ibadan Expressway"
+  },
+  
+  "office_hours": {
+    "weekdays": "Monday - Friday: 8:00 AM - 5:00 PM",
+    "note": "Specific office hours may vary by department. Check with individual offices."
+  },
+  
+  "note": "All contact information is subject to change. Always verify current contact details from the official Babcock University website or by calling the main university line. Email addresses follow the pattern: [department]@babcock.edu.ng"
+}

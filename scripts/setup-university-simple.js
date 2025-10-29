@@ -29,7 +29,12 @@ function getFullUniversityName(id) {
     'unn': 'University of Nigeria, Nsukka',
     'futa': 'Federal University of Technology, Akure',
     'covenant': 'Covenant University',
+    'babcock': 'Babcock University',
     'abu': 'Ahmadu Bello University',
+    'buk': 'Bayero University, Kano',
+    'unizik': 'Nnamdi Azikiwe University',
+    'uniport': 'University of Port Harcourt',
+    'uct': 'University of Cape Town',
     'harvard': 'Harvard University',
     'mit': 'Massachusetts Institute of Technology',
     'oxford': 'University of Oxford'

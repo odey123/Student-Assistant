@@ -1,0 +1,100 @@
+[
+  {
+    "school": "School of Agriculture & Industrial Technology",
+    "departments": [
+      "Agriculture (Options: Agricultural Economics, Animal Science, Crop Science)",
+      "Family & Consumer Sciences (Options: Nutrition & Dietetics)"
+    ]
+  },
+  {
+    "school": "Babcock Business School",
+    "departments": [
+      "Accounting",
+      "Banking & Finance",
+      "Business Administration",
+      "Economics",
+      "Information Resources Management",
+      "Marketing"
+    ]
+  },
+  {
+    "school": "School of Basic Medical Sciences (Benjamin S. Carson College of Health & Medical Sciences)",
+    "departments": [
+      "Anatomy",
+      "Biochemistry",
+      "Physiology"
+    ]
+  },
+  {
+    "school": "School of Clinical Sciences (Benjamin S. Carson College of Health & Medical Sciences)",
+    "departments": [
+      "Community Medicine",
+      "Internal Medicine",
+      "Medical Laboratory Science",
+      "Obstetrics & Gynaecology",
+      "Paediatrics",
+      "Pathology",
+      "Pharmacology",
+      "Surgery"
+    ]
+  },
+  {
+    "school": "School of Computing & Engineering Sciences",
+    "departments": [
+      "Computer Science (Options: Information Technology, Software Development)",
+      "Electrical & Electronics Engineering",
+      "Mechanical Engineering"
+    ]
+  },
+  {
+    "school": "School of Education & Humanities",
+    "departments": [
+      "Educational Foundations (Guidance & Counselling)",
+      "English Studies (English Language, Literature-in-English)",
+      "French",
+      "History & International Studies",
+      "Music & Creative Arts",
+      "Religious Studies"
+    ]
+  },
+  {
+    "school": "School of Law & Security Studies",
+    "departments": [
+      "Law",
+      "International Law & Diplomacy"
+    ]
+  },
+  {
+    "school": "School of Nursing Sciences",
+    "departments": [
+      "Nursing Science"
+    ]
+  },
+  {
+    "school": "School of Public & Allied Health",
+    "departments": [
+      "Public Health",
+      "Social Work"
+    ]
+  },
+  {
+    "school": "School of Science & Technology",
+    "departments": [
+      "Biological Sciences (Biology, Microbiology)",
+      "Chemical Sciences (Chemistry, Industrial Chemistry)",
+      "Mathematics & Physics (Mathematics, Physics Electronics)"
+    ]
+  },
+  {
+    "school": "School of Environmental Sciences",
+    "departments": [
+      "Architecture"
+    ]
+  },
+  {
+    "school": "College of Postgraduate Studies",
+    "departments": [
+      "Various postgraduate programs across all schools"
+    ]
+  }
+]
