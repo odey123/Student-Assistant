@@ -202,7 +202,7 @@ export const universities: University[] = [
     shortName: 'LAUTECH',
     country: 'Nigeria',
     state: 'Oyo',
-    logo: '/logos/lautech.png',
+    logo: '/logos/lautech.jpg',
     website: 'https://lautech.edu.ng',
     colors: {
       primary: '#8B0000',
@@ -386,7 +386,7 @@ export const universities: University[] = [
     name: 'Stanford University',
     shortName: 'Stanford',
     country: 'United States',
-    logo: '/logos/stanford.png',
+    logo: '/logos/stanford.avif',
     website: 'https://stanford.edu',
     colors: {
       primary: '#8C1515',
@@ -446,7 +446,7 @@ export const universities: University[] = [
     name: 'Imperial College London',
     shortName: 'Imperial',
     country: 'United Kingdom',
-    logo: '/logos/imperial.png',
+    logo: '/logos/imperial.svg',
     website: 'https://imperial.ac.uk',
     colors: {
       primary: '#003E74',

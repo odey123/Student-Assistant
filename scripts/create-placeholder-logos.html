@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate University Logo Placeholders</title>
+</head>
+<body>
+    <h1>University Logo Placeholder Generator</h1>
+    <p>Click each button to download a placeholder logo for the university.</p>
+
+    <div id="logos"></div>
+
+    <script>
+        const universities = [
+            { id: 'lautech', name: 'LAUTECH', color: '#8B0000', textColor: '#FFD700' },
+            { id: 'cambridge', name: 'CAMBRIDGE', color: '#A3C1AD', textColor: '#000000' },
+            { id: 'stanford', name: 'STANFORD', color: '#8C1515', textColor: '#FFFFFF' },
+            { id: 'futo', name: 'FUTO', color: '#006B3F', textColor: '#FFD700' },
+            { id: 'berkeley', name: 'BERKELEY', color: '#003262', textColor: '#FDB515' },
+            { id: 'imperial', name: 'IMPERIAL', color: '#003E74', textColor: '#FFFFFF' },
+            { id: 'yale', name: 'YALE', color: '#00356B', textColor: '#FFFFFF' },
+            { id: 'unimaid', name: 'UNIMAID', color: '#2E8B57', textColor: '#FFD700' }
+        ];
+
+        function createLogo(uni) {
+            const canvas = document.createElement('canvas');
+            canvas.width = 200;
+            canvas.height = 200;
+            const ctx = canvas.getContext('2d');
+
+            // Background
+            ctx.fillStyle = uni.color;
+            ctx.fillRect(0, 0, 200, 200);
+
+            // University icon/shape
+            ctx.fillStyle = uni.textColor;
+            ctx.globalAlpha = 0.3;
+
+            // Draw a simple academic cap/building shape
+            ctx.beginPath();
+            ctx.moveTo(100, 60);
+            ctx.lineTo(40, 80);
+            ctx.lineTo(160, 80);
+            ctx.closePath();
+            ctx.fill();
+
+            ctx.fillRect(70, 90, 60, 50);
+            ctx.globalAlpha = 1;
+
+            // Text
+            ctx.fillStyle = uni.textColor;
+            ctx.font = 'bold 24px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(uni.name, 100, 170);
+
+            return canvas;
+        }
+
+        function downloadLogo(canvas, filename) {
+            canvas.toBlob(blob => {
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = filename;
+                a.click();
+                URL.revokeObjectURL(url);
+            });
+        }
+
+        const container = document.getElementById('logos');
+        universities.forEach(uni => {
+            const div = document.createElement('div');
+            div.style.marginBottom = '20px';
+
+            const canvas = createLogo(uni);
+            div.appendChild(canvas);
+
+            const btn = document.createElement('button');
+            btn.textContent = `Download ${uni.name}`;
+            btn.style.marginLeft = '10px';
+            btn.onclick = () => downloadLogo(canvas, `${uni.id}.png`);
+            div.appendChild(btn);
+
+            container.appendChild(div);
+        });
+
+        // Download all button
+        const downloadAllBtn = document.createElement('button');
+        downloadAllBtn.textContent = 'Download All Logos';
+        downloadAllBtn.style.fontSize = '16px';
+        downloadAllBtn.style.padding = '10px 20px';
+        downloadAllBtn.style.marginTop = '20px';
+        downloadAllBtn.onclick = () => {
+            universities.forEach(uni => {
+                const canvas = createLogo(uni);
+                setTimeout(() => downloadLogo(canvas, `${uni.id}.png`), uni === universities[0] ? 0 : 500);
+            });
+        };
+        document.body.insertBefore(downloadAllBtn, container);
+    </script>
+</body>
+</html>
