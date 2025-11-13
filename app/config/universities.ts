@@ -209,7 +209,8 @@ export const universities: University[] = [
       secondary: '#FFD700',
       accent: '#000000'
     },
-    enabled: false
+    assistantId: process.env.LAUTECH_ASSISTANT_ID,
+    enabled: true
   },
   {
     id: 'uniabuja',
@@ -347,7 +348,8 @@ export const universities: University[] = [
       secondary: '#000000',
       accent: '#FFFFFF'
     },
-    enabled: false
+    assistantId: process.env.CAMBRIDGE_ASSISTANT_ID,
+    enabled: true
   },
   {
     id: 'harvard',
@@ -391,7 +393,8 @@ export const universities: University[] = [
       secondary: '#FFFFFF',
       accent: '#000000'
     },
-    enabled: false
+    assistantId: process.env.STANFORD_ASSISTANT_ID,
+    enabled: true
   },
   {
     id: 'toronto',
@@ -406,6 +409,83 @@ export const universities: University[] = [
       accent: '#FFFFFF'
     },
     enabled: false
+  },
+  {
+    id: 'futo',
+    name: 'Federal University of Technology, Owerri',
+    shortName: 'FUTO',
+    country: 'Nigeria',
+    state: 'Imo',
+    logo: '/logos/futo.png',
+    website: 'https://futo.edu.ng',
+    colors: {
+      primary: '#006B3F',
+      secondary: '#FFD700',
+      accent: '#FFFFFF'
+    },
+    assistantId: process.env.FUTO_ASSISTANT_ID,
+    enabled: true
+  },
+  {
+    id: 'berkeley',
+    name: 'University of California, Berkeley',
+    shortName: 'UC Berkeley',
+    country: 'United States',
+    logo: '/logos/berkeley.png',
+    website: 'https://berkeley.edu',
+    colors: {
+      primary: '#003262',
+      secondary: '#FDB515',
+      accent: '#FFFFFF'
+    },
+    assistantId: process.env.BERKELEY_ASSISTANT_ID,
+    enabled: true
+  },
+  {
+    id: 'imperial',
+    name: 'Imperial College London',
+    shortName: 'Imperial',
+    country: 'United Kingdom',
+    logo: '/logos/imperial.png',
+    website: 'https://imperial.ac.uk',
+    colors: {
+      primary: '#003E74',
+      secondary: '#FFFFFF',
+      accent: '#D4EFFC'
+    },
+    assistantId: process.env.IMPERIAL_ASSISTANT_ID,
+    enabled: true
+  },
+  {
+    id: 'yale',
+    name: 'Yale University',
+    shortName: 'Yale',
+    country: 'United States',
+    logo: '/logos/yale.png',
+    website: 'https://yale.edu',
+    colors: {
+      primary: '#00356B',
+      secondary: '#FFFFFF',
+      accent: '#5F712D'
+    },
+    assistantId: process.env.YALE_ASSISTANT_ID,
+    enabled: true
+  },
+  {
+    id: 'unimaid',
+    name: 'University of Maiduguri',
+    shortName: 'UNIMAID',
+    country: 'Nigeria',
+    state: 'Borno',
+    logo: '/logos/unimaid.png',
+    website: 'https://unimaid.edu.ng',
+    colors: {
+      primary: '#2E8B57',
+      secondary: '#FFD700',
+      accent: '#FFFFFF'
+    },
+    assistantId: process.env.UNIMAID_ASSISTANT_ID,
+    enabled: true
   }
 ];
 
