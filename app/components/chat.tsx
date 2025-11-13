@@ -155,6 +155,22 @@ const Chat = ({
 
     if (!response.ok) throw new Error(await response.text());
 
+    const contentType = response.headers.get('content-type') || '';
+    // Local KB fallback: server returns JSON { localResponse }
+    if (contentType.includes('application/json')) {
+      const json = await response.json();
+      if (json.localResponse) {
+        // Append local response as assistant message and finish
+        clearTimeout(timeout);
+        setIsLoading(false);
+        setInputDisabled(false);
+        appendMessage('assistant', json.localResponse);
+        return;
+      }
+      // no localResponse -> treat as error
+      throw new Error(JSON.stringify(json));
+    }
+
     const stream = AssistantStream.fromReadableStream(response.body);
 
     return new Promise<void>((resolve, reject) => {
