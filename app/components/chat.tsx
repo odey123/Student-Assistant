@@ -302,6 +302,9 @@ const Chat = ({
             a.text,
             `/api/files/${a.file_path.file_id}`
           );
+        } else if (a.type === "file_citation") {
+          // Remove citation markers like 【8:0†source】 for cleaner display
+          updated.text = updated.text.replaceAll(a.text, "");
         }
       });
       return [...prev.slice(0, -1), updated];
