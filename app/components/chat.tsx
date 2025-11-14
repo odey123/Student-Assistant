@@ -72,6 +72,8 @@ const Chat = ({
   const [inputDisabled, setInputDisabled] = useState(false);
   const [threadId, setThreadId] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const [isListening, setIsListening] = useState(false);
+  const recognitionRef = useRef<any>(null);
   const [chatHistories, setChatHistories] = useState<ChatHistory[]>([]);
   const [currentChatId, setCurrentChatId] = useState<string>("");
   const [showSidebar, setShowSidebar] = useState(false);
@@ -125,18 +127,83 @@ const Chat = ({
     createThread();
   }, []);
 
-  // Save current chat whenever messages change
+  // Save current chat whenever messages change (debounced)
   useEffect(() => {
     if (messages.length > 0 && currentChatId) {
-      saveCurrentChat();
+      const timeoutId = setTimeout(() => {
+        saveCurrentChat();
+      }, 500); // Debounce saves by 500ms
+      return () => clearTimeout(timeoutId);
     }
     onMessagesUpdate(messages);
   }, [messages, currentChatId]);
 
-  // Auto-scroll to bottom when messages change
+  // Auto-scroll to bottom when messages change or streaming updates
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages, isLoading]);
+    // Scroll immediately after content renders
+    const scrollTimeout = setTimeout(() => {
+      messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    }, 150);
+    return () => clearTimeout(scrollTimeout);
+  }, [messages, isLoading]); // Scroll on message changes and loading state
+
+  // Initialize voice recognition
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
+
+      if (SpeechRecognition) {
+        const recognition = new SpeechRecognition();
+        recognition.continuous = false;
+        recognition.interimResults = false;
+        recognition.lang = 'en-US';
+
+        recognition.onstart = () => {
+          setIsListening(true);
+        };
+
+        recognition.onresult = (event: any) => {
+          const transcript = event.results[0][0].transcript;
+          setUserInput(transcript);
+          setIsListening(false);
+        };
+
+        recognition.onerror = (event: any) => {
+          console.error('Speech recognition error:', event.error);
+          setIsListening(false);
+        };
+
+        recognition.onend = () => {
+          setIsListening(false);
+        };
+
+        recognitionRef.current = recognition;
+      }
+    }
+
+    return () => {
+      if (recognitionRef.current) {
+        recognitionRef.current.stop();
+      }
+    };
+  }, []);
+
+  // Voice input handlers
+  const startListening = () => {
+    if (recognitionRef.current && !isListening) {
+      try {
+        recognitionRef.current.start();
+      } catch (error) {
+        console.error('Error starting recognition:', error);
+      }
+    }
+  };
+
+  const stopListening = () => {
+    if (recognitionRef.current && isListening) {
+      recognitionRef.current.stop();
+    }
+  };
 
  const sendMessage = async (text: string) => {
   if (!threadId) return console.error("No threadId set yet.");
@@ -679,6 +746,29 @@ const Chat = ({
           onChange={(e) => setUserInput(e.target.value)}
           placeholder={`Ask me anything about ${selectedUniversity.shortName}...`}
         />
+        <button
+          type="button"
+          className={`${styles.button} ${styles.voiceButton} ${isListening ? styles.listening : ''}`}
+          onClick={isListening ? stopListening : startListening}
+          disabled={inputDisabled}
+          aria-label={isListening ? "Stop listening" : "Start voice input"}
+          title={isListening ? "Stop listening" : "Click to speak"}
+        >
+          {isListening ? (
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <circle cx="12" cy="12" r="8">
+                <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite"/>
+              </circle>
+            </svg>
+          ) : (
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+              <line x1="12" y1="19" x2="12" y2="23"/>
+              <line x1="8" y1="23" x2="16" y2="23"/>
+            </svg>
+          )}
+        </button>
         <button
           type="submit"
           className={styles.button}

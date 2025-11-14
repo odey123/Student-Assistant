@@ -222,49 +222,7 @@ export async function POST(
       content: content,
     });
 
-    // Check assistant existence first to avoid streaming errors that crash the
-    // dev server when an assistant id belongs to a different project.
-    try {
-      const checkRes = await fetch(
-        `https://api.openai.com/v1/assistants/${encodeURIComponent(selectedAssistantId)}`,
-        {
-          method: "GET",
-          headers: {
-            Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-            "Content-Type": "application/json",
-            "OpenAI-Beta": "assistants=v2",
-          },
-        }
-      );
-
-      if (!checkRes.ok) {
-        // Assistant doesn't exist in this project — try concise local answer first,
-        // then fall back to aggregated KB. This prevents returning huge KB dumps
-        // for short factoid queries (e.g. "Who is the VC?").
-        try {
-          const concise = await findConciseAnswer(universityId, content);
-          if (concise) {
-            return new Response(JSON.stringify({ localResponse: concise, concise: true }), {
-              status: 200,
-              headers: { "Content-Type": "application/json" },
-            });
-          }
-        } catch (e) {
-          // ignore extractor errors and proceed to aggregated KB
-          console.error("Concise extractor failed:", e);
-        }
-
-        const txt = await aggregateLocalKB(universityId, content);
-        return new Response(JSON.stringify({ localResponse: txt }), {
-          status: 200,
-          headers: { "Content-Type": "application/json" },
-        });
-      }
-    } catch (e) {
-      // If the check itself errors, continue — we'll try streaming but be safe.
-      console.error("Assistant existence check failed:", e);
-    }
-
+    // Stream response directly (optimized - removed pre-check)
     const stream = openai.beta.threads.runs.stream(params.threadId, {
       assistant_id: selectedAssistantId,
     });
